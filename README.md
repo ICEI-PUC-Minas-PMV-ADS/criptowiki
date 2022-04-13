@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# PORTAL INFORMATIVO SOBRE CRIPTOATIVOS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO DE WEB FRONT-END`
 
-`SEMESTRE`
+`EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto tem como objetivo final a criação de um portal informativo a respeito de Criptoativos. Identificamos muitas falhas ao transitar por esse meio e gostariamos de criar com um ambiente virutal onde podem ser trocadas informações e instruções entre os mais experientes e aqueles que almejam entrar nesse mundo. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Bruno César Feza Rodrigues
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone de Assis Alves da Silva
 
 ## Instruções de utilização
 
