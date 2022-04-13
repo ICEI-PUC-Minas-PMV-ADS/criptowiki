@@ -11,9 +11,11 @@ Este projeto tem como objetivo final a criação de um portal informativo a resp
 ## Integrantes
 
 * Bruno César Feza Rodrigues
-* Nome completo do aluno 2
+* Erick Machado Reis
 * Nome completo do aluno 3
 * Nome completo do aluno 4
+* Nome completo do aluno 5
+* Nome completo do aluno 6
 
 ## Orientador
 
