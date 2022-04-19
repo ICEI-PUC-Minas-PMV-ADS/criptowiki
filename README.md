@@ -12,7 +12,7 @@ Este projeto tem como objetivo final a criação de um portal informativo a resp
 
 * Bruno César Feza Rodrigues
 * Erick Machado Reis
-* Nome completo do aluno 3
+* Eduardo Ferreira Ribeiro
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 * Nome completo do aluno 6
