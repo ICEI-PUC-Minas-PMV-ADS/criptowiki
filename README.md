@@ -6,7 +6,7 @@
 
 `EIXO 1`
 
-Este projeto tem como objetivo final a criação de um portal informativo a respeito de Criptoativos. Identificamos muitas falhas ao transitar por esse meio e gostariamos de criar com um ambiente virutal onde podem ser trocadas informações e instruções entre os mais experientes e aqueles que almejam entrar nesse mundo. 
+Este projeto tem como objetivo final a criação de um portal informativo a respeito de Criptoativos. Identificamos muitas falhas ao transitar por esse meio e gostariamos de criar um ambiente virutal onde possam ser trocadas informações e instruções entre os mais experientes e aqueles que almejam entrar nesse mundo. 
 
 ## Integrantes
 
