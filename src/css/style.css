@@ -3,27 +3,31 @@ body {
 }
 
 header {
-	background: #0C223A;
+	background: #000000;
 	padding: 20px 0;
 }
 
+/*cria uma caixa com limite para os elementos*/
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 1080px;
 	margin: 0 auto;
 }
 
+/*comando para alinhar a posição dos botões à direita na barra*/
 nav {
 	position: absolute;
 	top: 60px;
 	right: 0;
 }
 
+/*comando para alinhar a posição dos botões lado a ladao na barra*/
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;	
 }
 
+/*formatação dos botões da caixa*/
 nav a {
 	text-transform: uppercase;
 	color: white;
@@ -32,19 +36,21 @@ nav a {
 	text-decoration: none;
 }
 
+/*sublinhado branco*/
 nav a:hover{
 	color: white;
 	text-decoration: underline;
 }
 
-
-.produtos {
+/*limite da caixa para os itens da pagina conteudos*/
+.conteudos {
 	width: 1080px;
 	margin: 0 auto;
 	padding: 35px 0;
 }
 
-.produtos li {
+/*alinhar os itens da pagina conteudos*/
+.conteudos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
@@ -56,40 +62,48 @@ nav a:hover{
 	border-radius: 20px;
 }
 
-.produtos li:hover {
+/*borda em volta dos itens da página de conteudos*/
+.conteudos li:hover {
 	border-color: black;
 }
 
-.produtos li>active{
+/*borda em volta dos itens da página de conteudos*/
+.conteudos li>active{
 	border-color: black;
 }
 
-.produtos li:hover h2{
+/*aumenta fonte do título ao passar o mouse da pagina conteudo*/
+.conteudos li:hover h2{
 	font-size: 28px;
 }
 
-.produtos h2 {
+/*formatação da fonte dos itens da página de conteudos*/
+.conteudos h2 {
 	font-size: 25px;
 	font-weight: bold;
 }
 
-.produto-descricao {
+/*formatação da fonte da descrição dos itens da página de conteudos*/
+.conteudo-descricao {
 	font-size: 18px;
 }
 
-.produto-preco {
+/*formatação da fonte da sub-descrição dos itens da página de conteudos*/
+.conteudo-preco {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
+/*configs do rodapé*/
 footer {
 	text-align: center;
-	background: #0C223A;
+	background: #000000;
 	padding: 10px 0;
 	color: White;
 }
 
+/*formatação copyright no rodapé*/
 .copyright {
 	color: White;
 	font-size: 10px;
@@ -101,27 +115,31 @@ footer {
 	width: 1080px;*/
 }
 
+
 form {
 	margin: 40px 0;
 }
 
+/*exemplo para utilização
 form label, form legend {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
-}
 
 .input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 20px;
 	width: 50%;
-}
+}*/
 
+/*exemplo checkbox para envio de e-mail ao time
 .checkbox {
 	margin: 20px 0;
 }
+*/
 
+/*exemplo botão enviar para enviar e-mail
 .enviar {
 	width: 40%;
 	padding: 15px 0;
@@ -135,10 +153,6 @@ form label, form legend {
 	cursor: pointer;
 }
 
-.enviar:hover {
-	background: darkorange;
-	transform: scale(1.1);
-}
 
 table {
 	margin: 20px 0 40px;
@@ -155,111 +169,99 @@ td,th {
 	padding: 8px 15px;
 }
 
-/*css da página inicial*/
-.banner {
-	width: 100%;
-}
+/*CSS DA PAGINA INICIAL*/
 
+/*leiaute do "sobre" da página*/
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left	;
-/*opacidade em títulos também:color: rgba(0,0,0,0.3)*/
+/*opacidade em títulos também -> color: rgba(0,0,0,0.3)*/
 }
-
 .principal {
 	padding: 3em 0;
 	background: #FEFEFE;
 	width: 1080px;
 	margin: 0 auto;
 }
-
 .principal p {
 	margin: 0 0 1em;
 }
-
 .principal strong {
 	font-weight: bold;
 }
-
 .principal em {
 	font-style: italic;
 }
 
-.utensilios {
+/*formatação do sobre da página home*/
+.sobre {
 	width: 500px;
 	float: left;
 	margin: 0 20px 20px;
 }
 
+/*formatacoes da caixa do mapa*/
 .mapa {
 	padding: 3em 0;
 	/*background: linear-gradient(#FEFEFE, #0C223A);
 	*/
 }
-
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
-
 .mapa-conteudo {
 	width: 1080px;
 	text-align: center;
 	margin: 0 auto;
 }
 
-.beneficios {
+/*formatacao de conteudo das inspiracoes*/
+.inspiracoes {
 	padding: 1em 0;
 	background: white;
 	color: black;
 }
-
-.conteudo-beneficios {
+.conteudo-inspiracoes {
 	width: 600px;
 	margin: 0 auto;
 	color: black;
 }
-
-.lista-beneficios {
+.lista-inspiracoes {
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
-
 .itens {
 	line-height: 2.3;
 }
-
 /*.itens:first-child {
 	font-weight: bold;
 }
 */
-
 .itens:before {
 	content: "★";
 }
-
-.imagem-beneficios {
+.imagem-inspiracoes {
 	width: 45%;
 	opacity: 1;
 	transition: 200ms;
 	/*box-shadow: 0px 0px 20px black;*/
 }
-
-.imagem-beneficios:hover {
+/*esmaece a imagem de inspirações da tela home*/
+.imagem-inspiracoes:hover {
 	opacity: 0.3;
 }
 
-
+/*formatacoes para inserir video na pagina*/
 .video {
 	width: 640px;
 	margin: 6em auto;
 }
-
 @media screen and (max-width: 640px){
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo, .video {
 		width: auto;
 	}
 
@@ -271,33 +273,14 @@ td,th {
 		position: static;
 	}
 
-	.lista-beneficios, .imagem-beneficios {
+	.lista-inspiracoes, .imagem-inspiracoes {
 		width: 100%;
 	}
 }
 
-/* !!!!!EXPERIMENTOS!!!!!
+/* 
 
-A partir do elemento pai selecionamos o elemento filho "p" ligado diretamente ao "main":
-main > p {
-	background: red;
-}
+!!!!!EXPERIMENTOS!!!!!
 
-Podemos selecionar também o primeiro irmão, neste caso o parágrafo somente após a imagem:
-img + p {
-	background: blue;
-}
-
-Neste caso pegamos todos os paragrafos após a imagem:
-img ~ p {
-	background: yellow;
-}
-
-Selecionar todos os paragrafos que não são missão:
-.principal p:not(#missao){
-	background: orange;
-}
-
-!!!!!!EXPERIMENTOS PARTE 2!!!!!
 */
 
