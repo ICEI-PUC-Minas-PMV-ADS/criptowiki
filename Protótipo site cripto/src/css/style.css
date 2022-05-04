@@ -248,8 +248,8 @@ main p{
         font-size: 1em;
     }
 
-    #titulo{
-        margin-top: 150px;
+    #titulo h1{
+        font-size: 100px;
     }
 
 }
