@@ -175,8 +175,8 @@ main p{
         margin: 50px auto 50px;
     }
 
-    #titulo{
-        margin-top: 100px;
+    #titulo {
+        margin-top: 200px;
     }
 
 
@@ -189,7 +189,7 @@ main p{
         text-align: center;
         align-items: center;
         width: 35%;
-        margin-top: 150px;
+        margin-top: 50px;
 
     }
 
@@ -252,9 +252,14 @@ main p{
         font-size: 100px;
     }
 
+    #titulo p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:700px){
     
     header{
         margin-top: 0;
@@ -301,11 +306,17 @@ main p{
     }
 
     #titulo{
-        font-size: 40px;
+        margin-top:50px;
     }
 
-    main p{
-        font-size: 35px;
+    #titulo h1{
+        font-size: 14vw;
+        margin-bottom: 10px;
+    }
+
+    #titulo p{
+        margin-top: 20px;
+        font-size: 6vw;
     }
 
 
@@ -320,7 +331,7 @@ main p{
 @media only screen and (max-width:485px){
 
     #titulo{
-        font-size: 35px;
+        font-size: 6vw;
     }
 
     #saiba{
@@ -368,7 +379,7 @@ main p{
 
     
     #saiba{
-        width: 90%;
+        width: 70%;
     }
 
     #titulo{
