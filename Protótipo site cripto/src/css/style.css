@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+body{
+    background: url(/src/img/Background\ -\ Home\ Page\ -\ Opcao\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    display: flex;
+}
+
+nav{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+#logo{
+    font-size: 45px;
+    color: #01fd6d;
+    width: 100px;
+}
+
+#logo img{
+    width: 350px;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #01fd6d;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+#nav ul li a:hover{
+    color: #01fd6d;
+}
+
+.busca{
+    border: 0;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.botaobusca{
+    font-size: 24px;
+    border:0;
+    background-color: #01fd6d;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height:80vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#titulo{
+    font-size: 50px;
+}
+
+h1{
+    margin:0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+main p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+
+#saiba{
+    margin-left: 35px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+#saiba a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+
+@media only screen and (max-width:1340px){
+    
+    header{
+        height: 200px;
+    }
+    
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180px;
+    }
+
+    #logo{
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    #nav{
+        margin-bottom: 20px;
+    }
+
+    main{
+        height: 40vh;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 50px auto 50px;
+    }
+
+    #titulo{
+        margin-top: 100px;
+    }
+
+
+    #saiba{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        width: 35%;
+        margin-top: 150px;
+
+    }
+
+    #saiba a{
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    header{
+        width: 100%;
+        height: 200px;
+    }
+
+    nav{
+        height: 200px;
+        justify-content: space-evenly;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #nav{
+        margin-bottom: 5px;
+    }
+
+    #nav ul{
+        justify-content: center;
+    }
+
+    nav ul li{
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+
+    #logo{
+        margin-bottom: 3px;
+    }
+
+    main{
+        margin-top: 50px;
+    }
+
+    #saiba{
+        width: 40%;
+        margin-top: 50px;
+    }
+    
+    #saiba a{
+        font-size: 1em;
+    }
+
+    #titulo{
+        margin-top: 150px;
+    }
+
+}
+
+@media only screen and (max-width:650px){
+    
+    header{
+        margin-top: 0;
+        height: 300px;
+        width: 100%;
+    }
+
+    #nav{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    nav{
+        height: 280px;
+        width: 100%;
+    }
+    
+    #nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li{
+        text-align: center;
+        width: 60%;
+        text-align: center;
+        margin: 0px auto 10px;
+    }
+
+    #nav ul li a{
+        width: 100%;
+    }
+
+    #busca{
+        margin-bottom: 20px;
+    }
+
+    #saiba{
+        width: 40%;
+    }
+
+    #titulo{
+        font-size: 40px;
+    }
+
+    main p{
+        font-size: 35px;
+    }
+
+
+    #logo{
+        margin:  0 auto;
+        font-size: 6vh;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:485px){
+
+    #titulo{
+        font-size: 35px;
+    }
+
+    #saiba{
+        width: 50%;
+    }
+    
+    #saiba a{
+        font-size: 1em;
+    }
+    #titulo{
+        font-size: 30px;
+    }
+
+    main p{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:390px){
+    
+    header{
+        height: 330px;
+    }
+
+    #logo{
+        margin-bottom: 0px;
+        margin-top: 30px;
+        width: auto;
+    }
+    
+    nav{
+        height: 300px;
+    }
+
+    #nav ul li{
+        margin: 5px auto 0px;
+        width: 100%;
+    }
+
+    #nav ul li a{
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    
+    #saiba{
+        width: 90%;
+    }
+
+    #titulo{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    main p{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #busca{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .busca{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+
+    .botaobusca{
+        margin: 6px auto 0;
+        width: 50%;
+    }
+    #saiba{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    #titulo{
+        font-size: 7vw;
+        margin-top: 50px;
+    }
+    main p{
+        font-size: 2.5vh;
+    }
+}
+
+
+

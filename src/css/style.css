@@ -19,6 +19,29 @@ nav {
 	position: absolute;
 	top: 60px;
 	right: 0;
+	display: flex;
+
+}
+
+.busca{
+	margin-left: 15px;
+	border-radius: 4px;
+}
+
+.botaobusca{
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+	height: auto;
+	margin-left: 4px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.botaobusca:hover{
+	background-color: white;
+	color: black;
 }
 
 /*comando para alinhar a posição dos botões lado a ladao na barra*/
@@ -260,23 +283,135 @@ td,th {
 	width: 640px;
 	margin: 6em auto;
 }
-@media screen and (max-width: 640px){
-	.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo, .video {
+@media screen and (max-width: 1400px){
+	.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo{
 		width: auto;
+	}
+
+	.principal, .conteudo-inspiracoes, .mapa-conteudo{
+		width: 80%;
+	}
+
+	.principal{
+		display: flex;
+		flex-direction: column;
+	}
+	.principal img{
+		margin: 0 auto 20px;
+	}
+
+	.principal p{
+		text-align: center;
 	}
 
 	h1 {
 		text-align: center;
 	}
 
-	navi {
-		position: static;
+	.lista-inspiracoes{
+		width: 100%;
+		text-align: center;
+	}
+	.imagem-inspiracoes{
+		width: 50%;
+		margin: 0 auto;
+		display: block;
 	}
 
-	.lista-inspiracoes, .imagem-inspiracoes {
+	.caixa{
+		width: 80%;
+		display: flex;
+	}
+	
+}
+
+@media screen and (max-width:1276px){
+.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo, .video {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	}
+
+	header{
 		width: 100%;
 	}
+
+	.sobre{
+		width: 70%;
+		margin: 0 auto 20px;
+	}
+
+	.principal img{
+		margin: 0 auto 20px;
+	}
+
+	.principal p{
+		margin: 0 50px;
+	}
+
+	.imagem-inspiracoes{
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.caixa{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav{
+		position: static;
+		margin: 10px 0;
+		display: flex;
+		flex-direction: column;
+		width: 60%;
+		margin: 0 auto;
+		height: auto;
+	}
+
+
+	.busca{
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.botaobusca{
+		width: 25%;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+
+	.caixa img{
+		margin-bottom: 20px;
+	}
+	
 }
+
+@media screen and (max-width:715px){
+	.caixa{
+		width: 100%;
+	}
+	.caixa nav{
+		width: 55%;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	.video{
+		width: 80%;
+	}
+	
+	.botaobusca{
+		width: 25%;
+	}
+}
+
+
+
 
 /* 
 
