@@ -54,6 +54,7 @@ nav{
     width: 600px;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 #nav ul li a{
@@ -141,11 +142,25 @@ main p{
     font-size: 1.2em;
 }
 
+footer{
+    color: white;
+    text-align: end;
+    height: 30px;
+    margin-right: 4px;
+    margin-top: 18px;
+}
 
-@media only screen and (max-width:1340px){
+@media only screen and (max-width:1485px){
+    nav{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width:1364px){
     
     header{
-        height: 200px;
+        height: 220px;
     }
     
     
@@ -153,7 +168,7 @@ main p{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 180px;
+        height: 200px;
     }
 
     #logo{
@@ -166,7 +181,7 @@ main p{
     }
 
     main{
-        height: 40vh;
+        height: 50vh;
         width: 80%;
         flex-direction: column;
         align-items: center;
@@ -176,7 +191,20 @@ main p{
     }
 
     #titulo {
-        margin-top: 200px;
+        margin-top: 20px;
+    }
+
+    #titulo h1{
+        font-size: 10vw;
+    }
+
+    #titulo p{
+        font-size: 3vw;
+    }
+
+    footer{
+        margin-bottom: 0;
+        margin-top: 59px;
     }
 
 
@@ -237,6 +265,7 @@ main p{
 
     main{
         margin-top: 50px;
+        height: 54.5vh;
     }
 
     #saiba{
@@ -257,6 +286,10 @@ main p{
         margin: 0 auto;
     }
 
+    footer{
+        margin-top: 38px;
+    }
+
 }
 
 @media only screen and (max-width:700px){
@@ -265,6 +298,16 @@ main p{
         margin-top: 0;
         height: 300px;
         width: 100%;
+    }
+
+    main{
+        height: 51.5vh;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    footer{
+        margin-top: 95px;
     }
 
     #nav{
@@ -297,26 +340,23 @@ main p{
         width: 100%;
     }
 
-    #busca{
-        margin-bottom: 20px;
-    }
 
     #saiba{
         width: 40%;
     }
 
     #titulo{
-        margin-top:50px;
+        margin-top:0px;
     }
 
     #titulo h1{
-        font-size: 14vw;
+        font-size: 10vw;
         margin-bottom: 10px;
     }
 
     #titulo p{
         margin-top: 20px;
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
 
@@ -328,7 +368,7 @@ main p{
 }
 
 
-@media only screen and (max-width:485px){
+@media only screen and (max-width:515px){
 
     #titulo{
         font-size: 6vw;
@@ -349,9 +389,18 @@ main p{
         font-size: 25px;
         margin-top: 20px;
     }
+
+    main{
+        height: 51.5vh;
+    }
+
+    footer{
+        margin-top: 95px;
+    }
+    
 }
 
-@media only screen and (max-width:390px){
+@media only screen and (max-width:410px){
     
     header{
         height: 330px;
@@ -382,13 +431,22 @@ main p{
         width: 70%;
     }
 
+    main{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     #titulo{
         font-size: 30px;
         margin-top: 0;
     }
 
-    main p{
-        font-size: 25px;
+    #titulo h1{
+        font-size: 14vw;
+    }
+
+    #titulo p{
+        font-size: 5vw;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -414,9 +472,22 @@ main p{
     #saiba{
         margin-top: 10px;
     }
+
+    footer{
+        margin-top: 85px;
+    }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:370px){
+    
+    #logo{
+        width: 90%;
+    }
+
+    #logo img{
+        width: 100%;
+    }
+    
     #titulo{
         font-size: 7vw;
         margin-top: 50px;
