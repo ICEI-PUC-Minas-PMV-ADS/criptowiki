@@ -5,8 +5,7 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-
-body{
+#bodyhome{
     background: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 2.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,7 +13,16 @@ body{
     background-size: cover;
     margin: 0;
     width: 100%;
-    position: fixed;
+}
+
+#bodyconteudos{
+    background: url(../img/Background\ -\ Conteudo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
 }
 
 #container{
@@ -91,6 +99,10 @@ nav{
     cursor: pointer;
 }
 
+.botaobusca:hover{
+    color: #000;
+}
+
 main{
     display: flex;
     align-items: flex-end;
@@ -135,6 +147,11 @@ main p{
 
 }
 
+#saiba:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 #saiba a{
     color: white;
     text-decoration: none;
@@ -145,14 +162,123 @@ main p{
 footer{
     color: white;
     text-align: end;
-    height: 30px;
-    margin-right: 4px;
-    margin-top: 18px;
+    height: auto;
+    margin-right: 6px;
+    margin-top: 32px;
 }
+
+
+
+/*  PAGINA CONTEUDOS */
+
+#conteudos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 40vw;
+    margin-top: 70px;
+    margin-top: 0;
+}
+
+.cont{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.link{
+    color: #01fd6d;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.cont img{
+    width: 200px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.cont2 img{
+    width: 160px;
+}
+
+#footercont{
+    margin-top: 39px;
+    margin-right: 6px;
+}
+
+.cont:hover a{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.cont:hover{
+    /*border: 2px solid #01fd6d; */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (max-width:1750px){
+    #conteudos{
+        height:730px;
+    }
+}
+
 
 @media only screen and (max-width:1485px){
     nav{
         width: 95%;
+    }
+
+    #conteudos{
+        height: 70%;
+        flex-wrap: wrap;
+        flex-direction: flex;
+        margin-top: 10px;
+    }
+
+    .cont{
+        width: 30vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont img{
+        width: 200px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .cont2 img{
+        width: 150px;
+        padding: 40px;
+    }
+
+    .link{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .cont:hover{
+        background: none;
+    }
+
+    .cont img:hover{
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
 
@@ -180,7 +306,7 @@ footer{
         margin-bottom: 20px;
     }
 
-    main{
+    #home{
         height: 50vh;
         width: 80%;
         flex-direction: column;
@@ -189,6 +315,7 @@ footer{
         text-align: center;
         margin: 50px auto 50px;
     }
+    
 
     #titulo {
         margin-top: 20px;
@@ -227,6 +354,14 @@ footer{
         text-align: center;
         padding: 20px;
     }
+
+    #conteudos{
+        margin-top: 20px;
+    }
+
+    #conteudos a{
+        font-size: 3vw;
+    }
 }
 
 @media only screen and (max-width:900px){
@@ -263,7 +398,7 @@ footer{
         margin-bottom: 3px;
     }
 
-    main{
+    #home{
         margin-top: 50px;
         height: 54.5vh;
     }
@@ -290,6 +425,30 @@ footer{
         margin-top: 38px;
     }
 
+    .cont{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .cont a{
+        font-size: 5vw;
+    }
+
+    #conteudos a{
+        font-size: 6vw;
+        margin-bottom: 20px;
+    }
+
+    .cont img{
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+    }
+
+    .cont2 img{
+        padding: 40px;
+    }
+
 }
 
 @media only screen and (max-width:700px){
@@ -300,7 +459,7 @@ footer{
         width: 100%;
     }
 
-    main{
+    #home{
         height: 51.5vh;
         margin-bottom: 0;
         margin-top: 20px;
@@ -385,12 +544,12 @@ footer{
         font-size: 30px;
     }
 
-    main p{
+    #home p{
         font-size: 25px;
         margin-top: 20px;
     }
 
-    main{
+    #home{
         height: 51.5vh;
     }
 
@@ -431,7 +590,7 @@ footer{
         width: 70%;
     }
 
-    main{
+    #home{
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -492,7 +651,7 @@ footer{
         font-size: 7vw;
         margin-top: 50px;
     }
-    main p{
+    #home p{
         font-size: 2.5vh;
     }
 }
