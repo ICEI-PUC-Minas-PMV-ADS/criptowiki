@@ -229,6 +229,43 @@ footer{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+
+/*      PÁGINA CONTATO */
+
+
+.equipe{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.equipe h1{
+    font-size: 2vw;
+}
+
+.equipe h3{
+    color: #01fd6d;
+    font-size: 1vw;
+}
+
+.equipe img{
+    width: 10vw;
+}
+
+#email{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
 @media only screen and (max-width:1750px){
     #conteudos{
         height:730px;
@@ -523,6 +560,37 @@ footer{
         margin:  0 auto;
         font-size: 6vh;
         text-align: center;
+    }
+
+    .equipe h1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .equipe{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .equipe img{
+        width: 16vw;
+    }
+
+    .equipe h1{
+        font-size: 5vw;
+    }
+
+    .equipe h3{
+        font-size: 3vw;
+    }
+
+    #email:first-child{
+        font-size: 30vw;
+    }
+    #email:last-child{
+        font-size: 5vw;
     }
 }
 
