@@ -13,6 +13,7 @@
     background-size: cover;
     margin: 0;
     width: 100%;
+    height: 100vh;
 }
 
 #bodyconteudos{
@@ -23,6 +24,7 @@
     background-size: cover;
     margin: 0;
     width: 100%;
+    height: 100vh;
 }
 
 #container{
@@ -35,10 +37,11 @@ header{
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
 }
 
 nav{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -80,13 +83,16 @@ nav{
 
 #nav ul li a:hover{
     color: #01fd6d;
+    border: 2px solid #fff;
 }
 
 .busca{
     border: 0;
     border-radius: 5px;
     font-size: 24px;
+    width: 265px;
 }
+
 
 .botaobusca{
     font-size: 24px;
@@ -107,7 +113,7 @@ main{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    height:80vh;
+    height:83vh;
     width: 90%;
     margin: 0 auto;
 }
@@ -162,9 +168,11 @@ main p{
 footer{
     color: white;
     text-align: end;
+    margin-top: auto;
     height: auto;
-    margin-right: 6px;
-    margin-top: 32px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
 }
 
 
@@ -240,7 +248,11 @@ footer{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.e1{
+    margin-top: 100px;
 }
 
 .equipe h1{
@@ -253,18 +265,75 @@ footer{
 }
 
 .equipe img{
-    width: 10vw;
+    width: 8vw;
 }
 
 #email{
     color: white;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: 500;
     text-align: center;
     display: flex;
     align-items: center;
 }
 
+.email a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* CRITPOATIVO */
+
+#bodyconteudo{
+    background-color: #fff;
+}
+
+#cabecalho{
+    height: auto;
+    margin-top: 0;
+    background-image: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 1\ \(1\).png);
+    border-bottom: 5px solid #01fd6d;
+}
+
+#titulotema{
+    color: #01fd6d;
+    display: block;
+    text-align: center;
+}
+
+#titulotema h1{
+    font-weight: 500;
+    font-size: 7vw;
+}
+
+#conteudo{
+    margin-top: 50px;
+    width: 60%;
+    text-align: center;
+    display: block;
+}
+
+#conteudo h2{
+    margin: 0;
+    padding: 0;
+    color: #01fd6d;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#conteudo p{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    color: #000;
+    font-size: 30px;
+}
+
+footer p{
+    color: #000;
+}
 
 @media only screen and (max-width:1750px){
     #conteudos{
@@ -316,6 +385,14 @@ footer{
 
     .cont img:hover{
         background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #nav ul{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto;
     }
 }
 
@@ -397,6 +474,44 @@ footer{
     }
 
     #conteudos a{
+        font-size: 3vw;
+    }
+
+    .equipe{
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .equipe h1{
+        font-size: 4vw;
+    }
+
+    .equipe img{
+        width: 12vw;
+    }
+
+    .equipe h3{
+        font-size: 2vw;
+    }
+
+    #email{
+        margin-top: 80px;
+    }
+
+    #conteudo{
+        width: 80%;
+    }
+
+    #titulotema h1{
+        font-size: 10vw;
+        margin-top: 20px;
+    }
+
+    #conteudo h2{
+        font-size: 5vw;
+    }
+
+    #conteudo p{
         font-size: 3vw;
     }
 }
@@ -486,6 +601,14 @@ footer{
         padding: 40px;
     }
 
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 4vw;
+    }
+
 }
 
 @media only screen and (max-width:700px){
@@ -553,6 +676,7 @@ footer{
     #titulo p{
         margin-top: 20px;
         font-size: 4vw;
+
     }
 
 
@@ -592,6 +716,35 @@ footer{
     #email:last-child{
         font-size: 5vw;
     }
+
+    .equipe{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .equipe img{
+        width: 25vw;
+    }
+
+    .equipe h1{
+        font-size: 10vw;
+    }
+
+    .equipe h3{
+        font-size: 4vw;
+    }
+
+    #email{
+        margin-top: 0;
+        padding: 50px;
+    }
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 5vw;
+    }
 }
 
 
@@ -610,6 +763,7 @@ footer{
     }
     #titulo{
         font-size: 30px;
+        margin-top: 80px;
     }
 
     #home p{
@@ -623,6 +777,15 @@ footer{
 
     footer{
         margin-top: 95px;
+    }
+
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 5vw;
+        height: 650px;
     }
     
 }
@@ -678,6 +841,10 @@ footer{
         margin-bottom: 30px;
     }
 
+    #home{
+        margin-top: 50px;
+    }
+
     #busca{
         display: flex;
         flex-direction: column;
@@ -720,7 +887,11 @@ footer{
         margin-top: 50px;
     }
     #home p{
-        font-size: 2.5vh;
+        font-size: 4vh;
+    }
+    
+    footer{
+        margin-top: 110px;
     }
 }
 
