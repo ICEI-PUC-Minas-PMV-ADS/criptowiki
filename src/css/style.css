@@ -1,421 +1,899 @@
-body {
-	font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+*{
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
-header {
-	background: #000000;
-	padding: 20px 0;
+#bodyhome{
+    background: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
 
-/*cria uma caixa com limite para os elementos*/
-.caixa {
-	position: relative;
-	width: 1080px;
-	margin: 0 auto;
+#bodyconteudos{
+    background: url(../img/Background\ -\ Conteudo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
 
-/*comando para alinhar a posição dos botões à direita na barra*/
-nav {
-	position: absolute;
-	top: 60px;
-	right: 0;
-	display: flex;
+#container{
+    display: flex;
+    flex-direction: column;
+}
 
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+#logo{
+    font-size: 45px;
+    color: #01fd6d;
+    width: 350px;
+}
+
+#logo img{
+    width: 350px;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #01fd6d;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+#nav ul li a:hover{
+    color: #01fd6d;
+    border: 2px solid #fff;
 }
 
 .busca{
-	margin-left: 15px;
-	border-radius: 4px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 265px;
 }
 
+
 .botaobusca{
-	background-color: transparent;
-	border: 1px solid white;
-	border-radius: 4px;
-	color: white;
-	height: auto;
-	margin-left: 4px;
-	text-transform: uppercase;
-	cursor: pointer;
+    font-size: 24px;
+    border:0;
+    background-color: #01fd6d;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 4px;
+    cursor: pointer;
 }
 
 .botaobusca:hover{
-	background-color: white;
-	color: black;
+    color: #000;
 }
 
-/*comando para alinhar a posição dos botões lado a ladao na barra*/
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;	
+main{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height:83vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
-/*formatação dos botões da caixa*/
-nav a {
-	text-transform: uppercase;
-	color: white;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+#titulo{
+    font-size: 50px;
 }
 
-/*sublinhado branco*/
-nav a:hover{
-	color: white;
-	text-decoration: underline;
+h1{
+    margin:0;
+    font-weight: 900;
+    font-size: 150px;
 }
 
-/*limite da caixa para os itens da pagina conteudos*/
-.conteudos {
-	width: 1080px;
-	margin: 0 auto;
-	padding: 35px 0;
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 0;
 }
 
-/*alinhar os itens da pagina conteudos*/
-.conteudos li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing:  border-box;
-	border: 5px solid white;
-	border-radius: 20px;
-}
-
-/*borda em volta dos itens da página de conteudos*/
-.conteudos li:hover {
-	border-color: black;
-}
-
-/*borda em volta dos itens da página de conteudos*/
-.conteudos li>active{
-	border-color: black;
-}
-
-/*aumenta fonte do título ao passar o mouse da pagina conteudo*/
-.conteudos li:hover h2{
-	font-size: 28px;
-}
-
-/*formatação da fonte dos itens da página de conteudos*/
-.conteudos h2 {
-	font-size: 25px;
-	font-weight: bold;
-}
-
-/*formatação da fonte da descrição dos itens da página de conteudos*/
-.conteudo-descricao {
-	font-size: 18px;
-}
-
-/*formatação da fonte da sub-descrição dos itens da página de conteudos*/
-.conteudo-preco {
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-
-/*configs do rodapé*/
-footer {
-	text-align: center;
-	background: #000000;
-	padding: 10px 0;
-	color: White;
-}
-
-/*formatação copyright no rodapé*/
-.copyright {
-	color: White;
-	font-size: 10px;
-	margin: 20px;
-	/*text-align: left;
-	vertical-align: center;
-
-	position: relative;
-	width: 1080px;*/
+main p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 200;
+    width: 840px;
 }
 
 
-form {
-	margin: 40px 0;
+#saiba{
+    margin-left: 35px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 0;
+
 }
 
-/*exemplo para utilização
-form label, form legend {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
-
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 20px;
-	width: 50%;
-}*/
-
-/*exemplo checkbox para envio de e-mail ao time
-.checkbox {
-	margin: 20px 0;
-}
-*/
-
-/*exemplo botão enviar para enviar e-mail
-.enviar {
-	width: 40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
+#saiba:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
-
-table {
-	margin: 20px 0 40px;
+#saiba a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
 }
 
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-
-td,th {
-	border: 1px solid #000000;
-	padding: 8px 15px;
-}
-
-/*CSS DA PAGINA INICIAL*/
-
-/*leiaute do "sobre" da página*/
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left	;
-/*opacidade em títulos também -> color: rgba(0,0,0,0.3)*/
-}
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 1080px;
-	margin: 0 auto;
-}
-.principal p {
-	margin: 0 0 1em;
-}
-.principal strong {
-	font-weight: bold;
-}
-.principal em {
-	font-style: italic;
-}
-
-/*formatação do sobre da página home*/
-.sobre {
-	width: 500px;
-	float: left;
-	margin: 0 20px 20px;
-}
-
-/*formatacoes da caixa do mapa*/
-.mapa {
-	padding: 3em 0;
-	/*background: linear-gradient(#FEFEFE, #0C223A);
-	*/
-}
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-.mapa-conteudo {
-	width: 1080px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-/*formatacao de conteudo das inspiracoes*/
-.inspiracoes {
-	padding: 1em 0;
-	background: white;
-	color: black;
-}
-.conteudo-inspiracoes {
-	width: 600px;
-	margin: 0 auto;
-	color: black;
-}
-.lista-inspiracoes {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-.itens {
-	line-height: 2.3;
-}
-/*.itens:first-child {
-	font-weight: bold;
-}
-*/
-.itens:before {
-	content: "★";
-}
-.imagem-inspiracoes {
-	width: 45%;
-	opacity: 1;
-	transition: 200ms;
-	/*box-shadow: 0px 0px 20px black;*/
-}
-/*esmaece a imagem de inspirações da tela home*/
-.imagem-inspiracoes:hover {
-	opacity: 0.3;
-}
-
-/*formatacoes para inserir video na pagina*/
-.video {
-	width: 640px;
-	margin: 6em auto;
-}
-@media screen and (max-width: 1400px){
-	.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo{
-		width: auto;
-	}
-
-	.principal, .conteudo-inspiracoes, .mapa-conteudo{
-		width: 80%;
-	}
-
-	.principal{
-		display: flex;
-		flex-direction: column;
-	}
-	.principal img{
-		margin: 0 auto 20px;
-	}
-
-	.principal p{
-		text-align: center;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	.lista-inspiracoes{
-		width: 100%;
-		text-align: center;
-	}
-	.imagem-inspiracoes{
-		width: 50%;
-		margin: 0 auto;
-		display: block;
-	}
-
-	.caixa{
-		width: 80%;
-		display: flex;
-	}
-	
-}
-
-@media screen and (max-width:1276px){
-.caixa, .principal, .conteudo-inspiracoes, .mapa-conteudo, .video {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	}
-
-	header{
-		width: 100%;
-	}
-
-	.sobre{
-		width: 70%;
-		margin: 0 auto 20px;
-	}
-
-	.principal img{
-		margin: 0 auto 20px;
-	}
-
-	.principal p{
-		margin: 0 50px;
-	}
-
-	.imagem-inspiracoes{
-		width: 60%;
-		margin: 0 auto;
-	}
-
-	.caixa{
-		width: 80%;
-		display: flex;
-		flex-direction: column;
-	}
-
-	nav{
-		position: static;
-		margin: 10px 0;
-		display: flex;
-		flex-direction: column;
-		width: 60%;
-		margin: 0 auto;
-		height: auto;
-	}
-
-
-	.busca{
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 10px;
-	}
-
-	.botaobusca{
-		width: 25%;
-		margin: 0 auto;
-		margin-top: 5px;
-	}
-
-	.caixa img{
-		margin-bottom: 20px;
-	}
-	
-}
-
-@media screen and (max-width:715px){
-	.caixa{
-		width: 100%;
-	}
-	.caixa nav{
-		width: 55%;
-	}
-
-	header{
-		width: 100%;
-	}
-
-	.video{
-		width: 80%;
-	}
-	
-	.botaobusca{
-		width: 25%;
-	}
+footer{
+    color: white;
+    text-align: end;
+    margin-top: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    position: fixed;
 }
 
 
 
+/*  PAGINA CONTEUDOS */
 
-/* 
+#conteudos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 40vw;
+    margin-top: 70px;
+    margin-top: 0;
+}
 
-!!!!!EXPERIMENTOS!!!!!
+.cont{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
 
-*/
+.link{
+    color: #01fd6d;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.cont img{
+    width: 200px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.cont2 img{
+    width: 160px;
+}
+
+#footercont{
+    margin-top: 39px;
+    margin-right: 6px;
+}
+
+.cont:hover a{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.cont:hover{
+    /*border: 2px solid #01fd6d; */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/*      PÁGINA CONTATO */
+
+
+.equipe{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.e1{
+    margin-top: 100px;
+}
+
+.equipe h1{
+    font-size: 2vw;
+}
+
+.equipe h3{
+    color: #01fd6d;
+    font-size: 1vw;
+}
+
+.equipe img{
+    width: 8vw;
+}
+
+#email{
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.email a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* CRITPOATIVO */
+
+#bodyconteudo{
+    background-color: #fff;
+}
+
+#cabecalho{
+    height: auto;
+    margin-top: 0;
+    background-image: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 1\ \(1\).png);
+    border-bottom: 5px solid #01fd6d;
+}
+
+#titulotema{
+    color: #01fd6d;
+    display: block;
+    text-align: center;
+}
+
+#titulotema h1{
+    font-weight: 500;
+    font-size: 7vw;
+}
+
+#conteudo{
+    margin-top: 50px;
+    width: 60%;
+    text-align: center;
+    display: block;
+}
+
+#conteudo h2{
+    margin: 0;
+    padding: 0;
+    color: #01fd6d;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#conteudo p{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    color: #000;
+    font-size: 30px;
+}
+
+footer p{
+    color: #000;
+}
+
+@media only screen and (max-width:1750px){
+    #conteudos{
+        height:730px;
+    }
+}
+
+
+@media only screen and (max-width:1485px){
+    nav{
+        width: 95%;
+    }
+
+    #conteudos{
+        height: 70%;
+        flex-wrap: wrap;
+        flex-direction: flex;
+        margin-top: 10px;
+    }
+
+    .cont{
+        width: 30vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont img{
+        width: 200px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .cont2 img{
+        width: 150px;
+        padding: 40px;
+    }
+
+    .link{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .cont:hover{
+        background: none;
+    }
+
+    .cont img:hover{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #nav ul{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width:1364px){
+    
+    header{
+        height: 220px;
+    }
+    
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    #logo{
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    #nav{
+        margin-bottom: 20px;
+    }
+
+    #home{
+        height: 50vh;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 50px auto 50px;
+    }
+    
+
+    #titulo {
+        margin-top: 20px;
+    }
+
+    #titulo h1{
+        font-size: 10vw;
+    }
+
+    #titulo p{
+        font-size: 3vw;
+    }
+
+    footer{
+        margin-bottom: 0;
+        margin-top: 59px;
+    }
+
+
+    #saiba{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        width: 35%;
+        margin-top: 50px;
+
+    }
+
+    #saiba a{
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #conteudos{
+        margin-top: 20px;
+    }
+
+    #conteudos a{
+        font-size: 3vw;
+    }
+
+    .equipe{
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .equipe h1{
+        font-size: 4vw;
+    }
+
+    .equipe img{
+        width: 12vw;
+    }
+
+    .equipe h3{
+        font-size: 2vw;
+    }
+
+    #email{
+        margin-top: 80px;
+    }
+
+    #conteudo{
+        width: 80%;
+    }
+
+    #titulotema h1{
+        font-size: 10vw;
+        margin-top: 20px;
+    }
+
+    #conteudo h2{
+        font-size: 5vw;
+    }
+
+    #conteudo p{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width:900px){
+    header{
+        width: 100%;
+        height: 200px;
+    }
+
+    nav{
+        height: 200px;
+        justify-content: space-evenly;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #nav{
+        margin-bottom: 5px;
+    }
+
+    #nav ul{
+        justify-content: center;
+    }
+
+    nav ul li{
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+
+    #logo{
+        margin-bottom: 3px;
+    }
+
+    #home{
+        margin-top: 50px;
+        height: 54.5vh;
+    }
+
+    #saiba{
+        width: 40%;
+        margin-top: 50px;
+    }
+    
+    #saiba a{
+        font-size: 1em;
+    }
+
+    #titulo h1{
+        font-size: 100px;
+    }
+
+    #titulo p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer{
+        margin-top: 38px;
+    }
+
+    .cont{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .cont a{
+        font-size: 5vw;
+    }
+
+    #conteudos a{
+        font-size: 6vw;
+        margin-bottom: 20px;
+    }
+
+    .cont img{
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+    }
+
+    .cont2 img{
+        padding: 40px;
+    }
+
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 4vw;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    
+    header{
+        margin-top: 0;
+        height: 300px;
+        width: 100%;
+    }
+
+    #home{
+        height: 51.5vh;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    footer{
+        margin-top: 95px;
+    }
+
+    #nav{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    nav{
+        height: 280px;
+        width: 100%;
+    }
+    
+    #nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li{
+        text-align: center;
+        width: 60%;
+        text-align: center;
+        margin: 0px auto 10px;
+    }
+
+    #nav ul li a{
+        width: 100%;
+    }
+
+
+    #saiba{
+        width: 40%;
+    }
+
+    #titulo{
+        margin-top:0px;
+    }
+
+    #titulo h1{
+        font-size: 10vw;
+        margin-bottom: 10px;
+    }
+
+    #titulo p{
+        margin-top: 20px;
+        font-size: 4vw;
+
+    }
+
+
+    #logo{
+        margin:  0 auto;
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    .equipe h1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .equipe{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .equipe img{
+        width: 16vw;
+    }
+
+    .equipe h1{
+        font-size: 5vw;
+    }
+
+    .equipe h3{
+        font-size: 3vw;
+    }
+
+    #email:first-child{
+        font-size: 30vw;
+    }
+    #email:last-child{
+        font-size: 5vw;
+    }
+
+    .equipe{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .equipe img{
+        width: 25vw;
+    }
+
+    .equipe h1{
+        font-size: 10vw;
+    }
+
+    .equipe h3{
+        font-size: 4vw;
+    }
+
+    #email{
+        margin-top: 0;
+        padding: 50px;
+    }
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (max-width:515px){
+
+    #titulo{
+        font-size: 6vw;
+    }
+
+    #saiba{
+        width: 50%;
+    }
+    
+    #saiba a{
+        font-size: 1em;
+    }
+    #titulo{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    #home p{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    #home{
+        height: 51.5vh;
+    }
+
+    footer{
+        margin-top: 95px;
+    }
+
+    #conteudo h2{
+        font-size: 7vw;
+    }
+
+    #conteudo p{
+        font-size: 5vw;
+        height: 650px;
+    }
+    
+}
+
+@media only screen and (max-width:410px){
+    
+    header{
+        height: 330px;
+    }
+
+    #logo{
+        margin-bottom: 0px;
+        margin-top: 30px;
+        width: auto;
+    }
+    
+    nav{
+        height: 300px;
+    }
+
+    #nav ul li{
+        margin: 5px auto 0px;
+        width: 100%;
+    }
+
+    #nav ul li a{
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    
+    #saiba{
+        width: 70%;
+    }
+
+    #home{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #titulo{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    #titulo h1{
+        font-size: 14vw;
+    }
+
+    #titulo p{
+        font-size: 5vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #home{
+        margin-top: 50px;
+    }
+
+    #busca{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .busca{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+
+    .botaobusca{
+        margin: 6px auto 0;
+        width: 50%;
+    }
+    #saiba{
+        margin-top: 10px;
+    }
+
+    footer{
+        margin-top: 85px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    
+    #logo{
+        width: 90%;
+    }
+
+    #logo img{
+        width: 100%;
+    }
+    
+    #titulo{
+        font-size: 7vw;
+        margin-top: 50px;
+    }
+    #home p{
+        font-size: 4vh;
+    }
+    
+    footer{
+        margin-top: 110px;
+    }
+}
+
+
 

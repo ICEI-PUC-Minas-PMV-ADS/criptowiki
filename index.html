@@ -1,86 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Criptowiki</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/img/Logo Verde.png">
+    <title>CriptoWiki</title>
+</head>
+<body id="bodyhome">
+    <div id="container">
+    <header>
+        <nav>
+            <div id="logo"> <a href=""><img src="src/img/Logo - Completo - Verde de Branco.png" alt="LOGO"></a></div>
+            <div id="nav">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="src/pages/conteudos.html">CONTEÚDO</a></li>
+                    <li><a href="src/pages/contato.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <div id="busca">
+                <input class="busca" type="text" placeholder="Faça sua busca...">
+                <button class="botaobusca">
+                    Buscar
+                </button>
+        </nav>
+    </header>
+    <main id="home">
+        <div id="titulo">
+            <h1 style="color: white;">BEM-VINDO</h1>
+            <h1 style="color: #01fd6d;">AO CRIPTOWIKI.</h1>
+            <p>Tudo o que você precisa saber para transitar pelo mundo cripto a partir de um conteúdo informativo, didático e acessível.</p>
+        </div>
 
-		<link rel="stylesheet" href="./src/css/reset.css">
-		<link rel="stylesheet" href="./src/css/style.css">
-	</head>
-
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="./src/img/teste_smallr.png"></h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="./src/pages/conteudos.html">CONTEÚDOS</a></li>
-						<li><a href="./src/pages/equipe.html">EQUIPE</a></li>
-					</ul>
-					<input class="busca" type="text">
-					<input class="botaobusca" type="button" value="Buscar">
-				</nav>
-			</div>
-		</header>
-
-		
-		<main>
-
-			<section class="principal">
-				<h2 class="titulo-principal">Sobre a Criptowiki</h2>
-
-				<img class="sobre" src="./src/img/coins.png" alt="criptoativos">
-		 
-				<p>O acervo <strong>Criptowiki</strong> traz informações para o investidor sobre o mercado de ativos digitais (criptoativos) e o tokens (NFT). Fundado em 2022, a <strong>Criptowiki</strong> foi desenvolvida para você e para todos que tenham interesse neste mercado.</p>
-
-				<p id="missao"><em>Nossa missão é: <strong>"Espalhar conhecimento sobre o mercado de criptoativos"</strong>.</em></p>
-
-				<p>Nosso conteúdo é construído com base na informação compartilhada de forma livre por acervos fundamentados no assunto. Entregamos excelência, garantindo informação de qualidade ao investidor.</p>
-			</section>
-<!--
-			<section class="mapa">
-				<h3 class="titulo-principal"> A Comunidade</h3>
-				<p> A comunidade Criptowiki é 100% digital e foi desenvolvida por estudantes da PUC Minas</p>
-				
-				<div class="mapa-conteudo">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.0367258565684!2d-43.99478368455776!3d-19.92285714323341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696fabcd470ed%3A0x79ebb3d3cea6b4ea!2sPUC%20Minas%20-%20Cora%C3%A7%C3%A3o%20Eucar%C3%ADstico!5e0!3m2!1sen!2sbr!4v1650309776400!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-			</section>
--->
-
-			<section class="inspiracoes">
-				<h3 class="titulo-principal">Inspirações</h3>
-
-				<div class="conteudo-inspiracoes">
-					<ul class="lista-inspiracoes">
-						<li class="itens"> CointMarketCap</li>
-						<li class="itens"> Cointelegraph</li>
-						<li class="itens"> CriptoFácil</li>
-						<li class="itens"> Investing</li>
-						<li class="itens"> InfoMoney</li>
-						<li class="itens"> MoneyTimes</li>
-					</ul><img src="./src/img/comunidade.png" class="imagem-inspiracoes">
-				</div>
-
-				<div class="video">
-					<iframe width="100%" height="315" src="https://youtube.com/embed/GSqWt_WzUb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				</div>
-			</section>
-		</main>
-
-
-		<footer>
-			<div class="right">
-				<img src="./src/img/teste_smallr.png">
-			</div>
-
-			<div class="left">
-				<br>2022 Criptowiki. Todos os direitos reservados.
-			</div>
-		</footer>
-
-	</body>
+        <div id="saiba">
+            <a href="src/pages/conteudos.html"><h2>Saiba mais <span style="color: #01fd6d;">--></span></h2></a>
+        </div>
+    </main>
+    <footer>
+        &#169; Copyright 2022
+    </footer>
+</div>
+</body>
 </html>
