@@ -25,7 +25,16 @@
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+}
+
+#bodyconteudo{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 #container{
@@ -106,8 +115,13 @@ nav{
     cursor: pointer;
 }
 
-.botaobusca:hover{
+.botaobusca a{
     color: #000;
+    text-decoration: none;
+}
+
+.botaobusca a:hover{
+    color: #fff;
 }
 
 main{
@@ -177,10 +191,10 @@ footer{
 }
 
 #footerhome{
-    position: absolute;
-    bottom: 3px;
-    right: 5px;
+    bottom: 4px;
+    right: 6px;
     display: flex;
+    justify-content: end;
 }
 
 
@@ -284,6 +298,14 @@ footer{
     align-items: center;
 }
 
+#emailar{
+    color: #01fd6d;
+    margin-right:10px;
+    margin-bottom: 10px;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
 .email a{
     color: #fff;
     text-decoration: none;
@@ -297,6 +319,13 @@ footer{
     margin: 0 auto;
 }
 
+#footer3{
+    margin-top: 0;
+}
+
+#footer3 p{
+    color: #fff;
+}
 
 /* CRITPOATIVO */
 
@@ -361,6 +390,94 @@ footer p{
 #espacamento{
     height: 100px;
 }
+
+/* PÁGINA PESQUISA */
+
+#cabecalho-busca{
+    height: 15vh;
+    background-image: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 1\ \(1\).png);
+    border-bottom: 5px solid #01fd6d;
+    margin-top: 0;
+}
+
+#pagina-busca{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100%;
+}
+
+#titulo-busca{
+    font-size: 2vw;
+    text-align: center;
+    color: #01fd6d;
+    margin: 0 auto;
+}
+
+#resultado{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.resultados{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+}
+
+.caixa{
+    padding: 10px;
+    height: 100%;
+    width: 12vw;
+}
+
+.caixa a{
+    text-decoration: none;
+    color: #01fd6d;
+    font-size: 1.5vw;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.resultados img{
+    width: 10vw;
+    margin-left: 20px;
+}
+
+.resultados p{
+    color: #000;
+    font-size: 30px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.descricao{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.descricao a{
+    color: #01fd6d;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.descricao a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+}
+
 
 @media only screen and (max-width:1750px){
     #conteudos{
@@ -531,7 +648,8 @@ footer p{
     }
 
     #email{
-        margin-top: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     #conteudo{
@@ -555,10 +673,6 @@ footer p{
         width: 50%;
     }
 
-    #bodyconteudos{
-        overflow: scroll;
-    }
-
     #cont1{
         height: 100%;
     }
@@ -570,6 +684,63 @@ footer p{
     main{
         height: 100%;
     }
+
+    #cabecalho-busca{
+        height: 25vh;
+    }
+
+    #titulo-busca{
+        font-size: 5vw;
+    }
+
+    .resultados{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .resultados p{
+        width: 100%;
+    }
+
+    .resultados img{
+        width: 15vw;
+        margin: 0;
+    }
+
+    .descricao{
+        text-align: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .descricao a{
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .subpesq{
+        text-align: center;
+        width: 100%;
+        width: 100%;
+        display:block;
+        margin: 0 auto;
+    }
+
+    .caixa{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa h2{
+        font-size: 4vw;
+    }
+
+    .descricao p{
+        font-size: 2vw;
+    }
+
 }
 
 @media only screen and (max-width:900px){
@@ -681,8 +852,10 @@ footer p{
         font-size: 3vw;
     }
 
-    #email{
+
+    #emailar{
         font-size: 5vw;
+        margin: 0;
     }
 
 }
@@ -786,11 +959,18 @@ footer p{
         font-size: 3vw;
     }
 
-    #email:first-child{
-        font-size: 30vw;
-    }
     #email:last-child{
         font-size: 5vw;
+    }
+
+    #emailar{
+        font-size: 7vw;
+    }
+
+    #email{
+        width: 100px;
+        margin-right: 200px;
+        padding: 0;
     }
 
     .equipe{
@@ -820,6 +1000,10 @@ footer p{
 
     #conteudo p{
         font-size: 5vw;
+    }
+
+    #cabecalho-busca{
+        height: 35vh;
     }
 }
 
@@ -876,8 +1060,8 @@ footer p{
         font-size: 5vw;
     }
 
-    #email{
-        font-size: 6vw;
+    #cabecalho-busca{
+        height: 38vh;
     }
     
 }
