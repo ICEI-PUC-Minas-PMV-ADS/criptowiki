@@ -172,7 +172,6 @@ footer{
     height: auto;
     right: 0;
     bottom: 0;
-    position: fixed;
 }
 
 
@@ -310,8 +309,9 @@ footer{
 #conteudo{
     margin-top: 50px;
     width: 60%;
-    text-align: center;
+    text-align: justify;
     display: block;
+    height: auto;
 }
 
 #conteudo h2{
@@ -321,18 +321,29 @@ footer{
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 600;
+    text-align: center;
 }
 
 #conteudo p{
-    margin: 0;
+    margin-bottom: 50px;
     padding: 0;
     width: auto;
     color: #000;
     font-size: 30px;
 }
 
+#conteudo img{
+    width: 10vw;
+    margin: 0 auto;
+    display: block;
+}
+
 footer p{
     color: #000;
+}
+
+#espacamento{
+    height: 100px;
 }
 
 @media only screen and (max-width:1750px){
@@ -513,6 +524,10 @@ footer p{
 
     #conteudo p{
         font-size: 3vw;
+    }
+
+    #conteudo section img{
+        width: 50%;
     }
 }
 
@@ -786,6 +801,10 @@ footer p{
     #conteudo p{
         font-size: 5vw;
         height: 650px;
+    }
+
+    #conteudo section p{
+        height: auto;
     }
     
 }
