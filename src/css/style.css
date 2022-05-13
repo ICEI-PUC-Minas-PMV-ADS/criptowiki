@@ -243,9 +243,20 @@ footer{
     width: 160px;
 }
 
+#footerrelconteudo{
+    height: 5.6vh;
+    position: relative;
+}
+
+#footerrel{
+    position: relative;
+    height: 1.9vh;
+}
+
 #footercont{
-    margin-top: 39px;
-    margin-right: 6px;
+    /* margin-top: 39px;
+    margin-right: 6px; */
+    position: absolute;
 }
 
 .cont:hover a{
