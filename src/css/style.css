@@ -253,6 +253,13 @@ footer{
     height: 1.9vh;
 }
 
+#footerpesq{
+    position: relative;
+    right: 18px;
+    bottom: 4px;
+    line-height: 10px;
+}
+
 #footercont{
     /* margin-top: 39px;
     margin-right: 6px; */
@@ -869,6 +876,19 @@ hr{
         margin: 0;
     }
 
+    .resultados{
+        width: 90%;
+    }
+
+    .resultados p{
+        margin: 0;
+        font-size: 3vw;
+    }
+
+    .resultados img{
+        width: 60%;
+    }
+
 }
 
 @media only screen and (max-width:700px){
@@ -1072,7 +1092,24 @@ hr{
     }
 
     #cabecalho-busca{
-        height: 38vh;
+        height: 35vh;
+    }
+
+    .resultados{
+        width: 100%;
+    }
+
+    .resultados p{
+        margin: 0;
+        font-size: 5vw;
+    }
+
+    .resultados img{
+        width: 33vw;
+    }
+
+    .resultados h2{
+        font-size: 7vw;
     }
     
 }
@@ -1156,6 +1193,10 @@ hr{
 
     footer{
         margin-top: 85px;
+    }
+
+    #cabecalho-busca{
+        height: 48vh;
     }
 }
 
