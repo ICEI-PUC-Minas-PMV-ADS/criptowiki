@@ -206,6 +206,11 @@ main p{
     width: 40%;
 }
 
+#footerhome11{
+    text-align: end;
+    width: 40%;
+}
+
 #footerhome2{
     display: block;
 }
@@ -218,6 +223,13 @@ main p{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    align-items: center;
+}
+
+#ft2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
     align-items: center;
 }
 
