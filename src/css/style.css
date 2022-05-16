@@ -40,6 +40,7 @@
 #container{
     display: flex;
     flex-direction: column;
+    height: 99.9vh;
 }
 
 header{
@@ -180,21 +181,44 @@ main p{
     font-size: 1.2em;
 }
 
-footer{
-    color: white;
-    text-align: end;
-    margin-top: auto;
-    height: auto;
-    right: 0;
-    bottom: 0;
+#footerhome{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#footerhome h6{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    color: #fff;
+}
+
+#footerhome p{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+#footerhome1{
+    width: 40%;
+}
+
+#footerhome2{
     display: block;
 }
 
-#footerhome{
-    bottom: 4px;
-    right: 6px;
+#footerhome2 img{
+    width: 10vw;
+}
+
+#ft1{
     display: flex;
-    justify-content: end;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
@@ -280,6 +304,14 @@ footer{
 
 /*      PÁGINA CONTATO */
 
+
+#equipes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
 .equipe{
     width: 30%;
     color: white;
@@ -288,10 +320,7 @@ footer{
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
-}
-
-.e1{
-    margin-top: 30px;
+    margin: 0 auto;
 }
 
 .equipe h1{
@@ -301,6 +330,7 @@ footer{
 .equipe h3{
     color: #01fd6d;
     font-size: 1.5vw;
+    margin-bottom: 0px;
 }
 
 .equipe img{
@@ -314,6 +344,9 @@ footer{
     text-align: center;
     display: block;
     align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #emailar{
@@ -333,7 +366,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 80vh;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -423,7 +456,7 @@ footer p{
     align-items: flex-start;
     justify-content: flex-start;
     width: 80%;
-    height: 100%;
+    height: auto;
 }
 
 #titulo-busca{
@@ -572,6 +605,7 @@ hr{
     
     header{
         height: 220px;
+        padding-bottom: 30px;
     }
     
     
@@ -759,6 +793,25 @@ hr{
         font-size: 2vw;
     }
 
+    #conteudos{
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width:1100px){
+
+    #footerhome1 h6{
+        font-size: 2vw;
+    }
+
+    #footerhome1 p{
+        font-size: 2vw;
+    }
+
+    #footerhome2 img{
+        width: 25vw;
+    }
 }
 
 @media only screen and (max-width:900px){
@@ -827,8 +880,13 @@ hr{
         margin-bottom: 20px;
         margin-top: 40px;
     }
+
     .cont a{
         font-size: 5vw;
+    }
+
+    #conteudos{
+        height: auto
     }
 
     #conteudos a{
@@ -996,12 +1054,14 @@ hr{
 
     #emailar{
         font-size: 7vw;
+        margin-left: 0px;
+        width: 100%;
     }
 
     #email{
-        width: 100px;
-        margin-right: 200px;
+        width: 100%;
         padding: 0;
+        margin-left: 0px;
     }
 
     .equipe{
@@ -1023,7 +1083,6 @@ hr{
 
     #email{
         margin-top: 0;
-        padding: 50px;
     }
     #conteudo h2{
         font-size: 7vw;
@@ -1035,6 +1094,22 @@ hr{
 
     #cabecalho-busca{
         height: 35vh;
+    }
+
+    #footerhome1{
+        width: 50%;
+    }
+
+    #footerhome1 h6{
+        font-size: 4vw;
+    }
+
+    #footerhome1 p{
+        font-size: 4vw;
+    }
+
+    #footerhome2 img{
+        width: 40vw;
     }
 }
 
