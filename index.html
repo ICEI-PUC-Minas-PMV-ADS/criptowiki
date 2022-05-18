@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="icon" href="src/img/Logo Verde.png">
+    <script src="/src/javascript/script.js"></script>
     <title>CriptoWiki</title>
 </head>
 <body id="bodyhome">
@@ -22,9 +23,9 @@
                 </ul>
             </div>
             <div id="busca">
-                <input class="busca" type="text" placeholder="Faça sua busca...">
-                <button class="botaobusca">
-                    <a href="./src/pages/pesquisa.html">Buscar</a>
+                <input id="caixabusca" class="busca" type="text" onkeypress="enter()" placeholder="Pesquise criptomoedas e NFTS...">
+                <button id="botaobusca" class="botaobusca" onclick="busca()">
+                    <a id="link" target="_blank" href="#">Buscar</a>
                 </button>
         </nav>
     </header>
@@ -46,7 +47,7 @@
             </div>
             <div id="footerhome11">
                 <div><h6>PORTAL INFORMATIVO DE CRIPTOATIVOS</h6></div>
-                <div><p>Alex Berton, Bruno Feza, Erick Reis, Louender Junior e Victor Gloweki</p></div>
+                <div><p>Alex Berton, Bruno Feza, Erick Reis, Louender Junio e Victor Gloweki</p></div>
             </div>
         </div>
     </footer>

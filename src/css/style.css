@@ -822,6 +822,14 @@ hr{
         font-size: 2vw;
     }
 
+    #footerhome11 h6{
+        font-size: 2vw;
+    }
+
+    #footerhome11 p{
+        font-size: 2vw;
+    }
+
     #footerhome2 img{
         width: 25vw;
     }
@@ -1118,6 +1126,18 @@ hr{
     }
 
     #footerhome1 p{
+        font-size: 4vw;
+    }
+
+    #footerhome11{
+        width: 50%;
+    }
+
+    #footerhome11 h6{
+        font-size: 4vw;
+    }
+
+    #footerhome11 p{
         font-size: 4vw;
     }
 
