@@ -142,15 +142,15 @@ nav{
 .tooltip2{
     color: #fff;
     position: absolute;
-    background-color: rgba(1, 253, 109, 0.7);
+    background-color: rgba(1, 253, 109, 0.5);
     text-align: center;
     font-size: 1.2em;
     font-weight: 100px;
-    width: 13vw;
+    width: 12vw;
     height: auto;
     right: 1vw;
     top: 1vw;
-    margin-right: 155px;
+    margin-right: 165px;
     margin-top: 110px;
     padding: 5px;
     border-radius: 10px;
@@ -642,6 +642,11 @@ hr{
 
     .equipe img{
         width: 10vw;
+    }
+
+    .tooltip2{
+        width: 16%;
+        margin-right: 110px;
     }
 }
 
@@ -1208,7 +1213,7 @@ hr{
 }
 
 
-@media only screen and (max-width:515px){
+@media only screen and (max-width:548px){
 
     #titulo{
         font-size: 6vw;
