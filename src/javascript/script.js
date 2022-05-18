@@ -21,3 +21,14 @@ function busca(){
 });
  */
 
+function legenda(){
+    var caixa = document.querySelector('.tooltip')
+    var caixa2 = caixa.classList.toggle('tooltip2')
+    console.log('sim')
+}
+
+function legenda2(){
+    var caixa = document.querySelector('.tooltip2')
+    var caixa2 = caixa.classList.remove('tooltip2')
+    console.log('não')
+}

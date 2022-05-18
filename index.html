@@ -11,6 +11,7 @@
     <title>CriptoWiki</title>
 </head>
 <body id="bodyhome">
+    <span id="legenda" class="tooltip">Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no CoinMarketCap</span>
     <div id="container">
     <header>
         <nav>
@@ -23,7 +24,7 @@
                 </ul>
             </div>
             <div id="busca">
-                <input id="caixabusca" class="busca" type="text" title="Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no CoinMarketCap" placeholder="Pesquise criptomoedas e NFTS...">
+                <input id="caixabusca" class="busca" type="text" onmouseenter="legenda()" onmouseleave="legenda2()" placeholder="Pesquise criptos e NFTS...">
                 <button id="botaobusca" class="botaobusca" onclick="busca();document.getElementById('caixabusca').value =''">
                     <a id="link" target="_blank" href="#">Buscar</a>
                 </button>
@@ -62,6 +63,9 @@
     }
     
 })
+
+
+
 </script>
 </body>
 </html>

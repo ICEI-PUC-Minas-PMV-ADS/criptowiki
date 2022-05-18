@@ -125,6 +125,38 @@ nav{
     color: #fff;
 }
 
+.tooltip{
+    color: #fff;
+    position: absolute;
+    background-color: rgba(1, 253, 109, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100px;
+    width: 12vw;
+    right: 188px;
+    top: 130px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.tooltip2{
+    color: #fff;
+    position: absolute;
+    background-color: rgba(1, 253, 109, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100px;
+    width: 13vw;
+    height: auto;
+    right: 1vw;
+    top: 1vw;
+    margin-right: 145px;
+    margin-top: 110px;
+    padding: 5px;
+    border-radius: 10px;
+    visibility: visible;
+}
+
 main{
     display: flex;
     align-items: flex-end;
@@ -810,6 +842,16 @@ hr{
         height: auto;
     }
 
+    .tooltip2{
+        left: 1vw;
+        top: 1vw;
+        margin: 0 auto;
+        margin-top: 250px;
+        width: 40%;
+        font-size: 1.1em;
+        position: absolute;
+    }
+
 }
 
 @media only screen and (max-width:1100px){
@@ -833,6 +875,16 @@ hr{
     #footerhome2 img{
         width: 25vw;
     }
+
+    .tooltip2{
+        left: 1vw;
+        top: 270px;
+        margin: 0 auto ;
+        width: 50%;
+        font-size: 1.1em;
+        position: absolute;
+    }
+
 }
 
 @media only screen and (max-width:900px){
@@ -1144,6 +1196,15 @@ hr{
     #footerhome2 img{
         width: 40vw;
     }
+
+    .tooltip2{
+        left: 1vw;
+        top: 290px;
+        margin: 0 auto ;
+        width: 50%;
+        font-size: 1.1em;
+        position: absolute;
+    }
 }
 
 
@@ -1306,6 +1367,11 @@ hr{
     #cabecalho-busca{
         height: 48vh;
     }
+
+    .tooltip2{
+        width: 90%;
+        top: 330px;
+    }
 }
 
 @media only screen and (max-width:370px){
@@ -1328,6 +1394,10 @@ hr{
     
     footer{
         margin-top: 110px;
+    }
+
+    .tooltip{
+        visibility: hidden;
     }
 }
 
