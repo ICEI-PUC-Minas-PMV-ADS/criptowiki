@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div id="busca">
-                <input id="caixabusca" class="busca" type="text" onkeypress="enter()" placeholder="Pesquise criptomoedas e NFTS...">
+                <input id="caixabusca" class="busca" type="text" placeholder="Pesquise criptomoedas e NFTS...">
                 <button id="botaobusca" class="botaobusca" onclick="busca()">
                     <a id="link" target="_blank" href="#">Buscar</a>
                 </button>
@@ -52,5 +52,16 @@
         </div>
     </footer>
 </div>
+
+<script>
+    
+    document.getElementById("caixabusca").addEventListener("keypress",function(e){
+    if (e.key === "Enter"){
+        var btn = document.querySelector("#link")
+        btn.click()
+
+    }
+})
+</script>
 </body>
 </html>
