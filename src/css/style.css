@@ -28,13 +28,12 @@
 }
 
 #bodyconteudo{
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 0;
     width: 100%;
     height: 100vh;
+    overflow: auto;
+    overflow: initial;
+    z-index: 2;
 }
 
 #container{
@@ -453,6 +452,7 @@ main p{
     text-align: justify;
     display: block;
     height: auto;
+    border-radius: 30px;
 }
 
 #conteudo h2{
@@ -466,7 +466,7 @@ main p{
 }
 
 #conteudo p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 0;
     width: auto;
     color: #000;
