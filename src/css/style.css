@@ -487,6 +487,12 @@ footer p{
     height: 100px;
 }
 
+#widget{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* PÁGINA PESQUISA */
 
 #cabecalho-busca{
