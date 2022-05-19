@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/Logo Verde.png">
+    <script src="../javascript/script.js"></script>
     <title>CriptoWiki</title>
 </head>
 <body id="bodyconteudos">
+    <span id="legenda" class="tooltip">Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no CoinMarketCap</span>
     <div id="container">
     <header>
         <nav>
@@ -22,9 +24,9 @@
                 </ul>
             </div>
             <div id="busca">
-                <input class="busca" type="text" placeholder="Faça sua busca...">
-                <button class="botaobusca">
-                    <a href="../pages/pesquisa.html">Buscar</a>
+                <input id="caixabusca" class="busca" type="text" onmouseenter="legenda()" onmouseleave="legenda2()" placeholder="Pesquise criptos e NFTS...">
+                <button id="botaobusca" class="botaobusca" onclick="busca();document.getElementById('caixabusca').value =''">
+                    <a id="link" target="_blank" href="#">Buscar</a>
                 </button>
         </nav>
     </header>
@@ -75,5 +77,18 @@
                 </div>
             </div> 
         </footer>
+        <script>
+
+            document.getElementById("caixabusca").addEventListener("keypress",function(e){
+            if (e.key === "Enter"){
+                var btn = document.querySelector("#link")
+                btn.click()
+            }
+            
+        })
+        
+        
+        
+        </script>
 </body>
 </html>

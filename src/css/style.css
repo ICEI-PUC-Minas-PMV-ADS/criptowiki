@@ -157,6 +157,7 @@ nav{
     visibility: visible;
 }
 
+
 main{
     display: flex;
     align-items: flex-end;
@@ -279,7 +280,6 @@ main p{
     align-items: center;
     height: 40vw;
     margin-top: 70px;
-    margin-top: 0;
 }
 
 .cont{
@@ -588,7 +588,7 @@ hr{
     }
 
     #conteudos{
-        height: 70%;
+        height: auto;
         flex-wrap: wrap;
         flex-direction: flex;
         margin-top: 10px;
