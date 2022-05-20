@@ -422,7 +422,7 @@ main p{
     color: #fff;
 }
 
-/* CRITPOATIVO */
+/* CRIPTOATIVO */
 
 #bodyconteudo{
     background-color: #fff;
@@ -494,6 +494,24 @@ footer p{
     font-weight: 1000;
 }
 
+/* body::-webkit-scrollbar{
+    background: #14110b8e;
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track{
+    border: 5px solid #fff;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #01fd6d;;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #01e664;
+}
+ */
 /* PÁGINA PESQUISA */
 
 #cabecalho-busca{
