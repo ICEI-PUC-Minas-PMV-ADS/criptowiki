@@ -522,7 +522,9 @@ footer p{
 }
 
 #comentariospost{
+    margin: 0 auto;
     margin-top: 50px;
+    word-wrap: break-word;
 }
 
 #comentariospost p{

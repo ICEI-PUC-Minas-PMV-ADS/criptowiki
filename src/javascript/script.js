@@ -56,7 +56,7 @@ function comentar(){
     var comentario = document.getElementById('inputcomentario').value
     var data = new Date()
     var p = document.createElement('section')
-    p.innerHTML = `<p>${comentario}.</p>
+    p.innerHTML = `<p>${comentario}</p>
     <p class="horario">Postado em: ${dataAtualFormatada()}</p>
     <hr>`
     document.getElementById('comentariospost').prepend(p)
