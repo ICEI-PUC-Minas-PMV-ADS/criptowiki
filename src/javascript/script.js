@@ -40,3 +40,25 @@ function legenda2(){
     var caixa = document.querySelector('.tooltip2')
     var caixa2 = caixa.classList.remove('tooltip2')
 }
+
+function dataAtualFormatada(){
+    var data = new Date(),
+        dia  = data.getDate().toString(),
+        diaF = (dia.length == 1) ? '0'+dia : dia,
+        mes  = (data.getMonth()+1).toString(), //+1 pois no getMonth Janeiro começa com zero.
+        mesF = (mes.length == 1) ? '0'+mes : mes,
+        anoF = data.getFullYear();
+    return diaF+"/"+mesF+"/"+anoF;
+}
+
+
+function comentar(){
+    var comentario = document.getElementById('inputcomentario').value
+    var data = new Date()
+    var p = document.createElement('section')
+    p.innerHTML = `<p>${comentario}.</p>
+    <p class="horario">Postado em: ${dataAtualFormatada()}</p>
+    <hr>`
+    document.getElementById('comentariospost').prepend(p)
+    document.getElementById('inputcomentario').value=''
+}
