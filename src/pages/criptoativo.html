@@ -10,6 +10,7 @@
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
     <link rel="icon" href="../img/Logo Verde.png">
+    <script src="../javascript/script.js"></script>
     <title>CriptoWiki</title>
 </head>
 <body id="bodyconteudo">
@@ -80,6 +81,18 @@
         </div> 
     </footer>
 </div>
-<script src="../javascript/script.js"></script>
+<script>
+
+    document.getElementById("inputcomentario").addEventListener("keypress",function(e){
+    if (e.key == "Enter"){
+        var botaocomentario = document.querySelector("#botaocomentar")
+        botaocomentario.click()
+    }
+    
+})
+
+
+
+</script>
 </body>
 </html>
