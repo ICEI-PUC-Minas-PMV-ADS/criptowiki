@@ -672,6 +672,54 @@ hr{
     width: 30%;
 }
 
+/*              DICIONARIO                   */
+
+#cabecalhodicionario{
+    background-image: url(../img/Background\ -\ Dicionario.png);
+}
+
+#dicionario{
+    text-align: start;
+}
+
+#dicionario hr{
+    border-top: 2px dotted #01fd6d;
+    background-image: none;
+    margin-top: 30px;
+}
+
+#dicionario h2{
+    text-align: start;
+    font-size: 40px;
+    margin: 0;
+}
+
+#dicionario p{
+    margin-bottom: 20px;
+}
+
+.letras{
+    display: inline-block;
+    max-width: 50px;
+    height: 50px;
+    text-align: start;
+    margin-right: 0px;;
+}
+
+.letras2{
+    max-width: 100px;
+}
+
+.letras3{
+    max-width: 150px;
+}
+
+#dicionario img{
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 
 @media only screen and (max-width:1750px){
     #conteudos{
