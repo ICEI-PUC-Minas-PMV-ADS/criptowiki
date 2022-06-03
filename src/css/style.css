@@ -672,9 +672,30 @@ hr{
     text-align: center;
     color: #01fd6d;
     border-bottom: 3px solid #01fd6d;
-    font-size: 10vw;
-    width: 30%;
+    font-size: 5vw;
+    width: 60%;
 }
+
+.perigosubtitulo{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#perigos a{
+    text-decoration: none;
+    color: #01fd6d;
+    font-weight: 1000;
+}
+
+#perigos a:visited{
+    color: #01fd6d;
+    font-weight: 1000;
+}
+
+#perigos a:hover{
+    color: #000;
+}
+
 
 /*              DICIONARIO                   */
 
@@ -687,9 +708,8 @@ hr{
 }
 
 #dicionario hr{
-    border-top: 2px dotted #01fd6d;
-    background-image: none;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #dicionario h2{
