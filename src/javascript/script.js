@@ -41,6 +41,16 @@ function legenda2(){
     var caixa2 = caixa.classList.remove('tooltip2')
 }
 
+function legendaTemas(){
+    var caixa = document.querySelector('.tooltip')
+    var caixa2 = caixa.classList.toggle('tooltip3')
+}
+
+function legendaTemas2(){
+    var caixa = document.querySelector('.tooltip3')
+    var caixa2 = caixa.classList.remove('tooltip3')
+}
+
 function dataAtualFormatada(){
     var data = new Date(),
         dia  = data.getDate().toString(),

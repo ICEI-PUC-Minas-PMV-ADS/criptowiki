@@ -157,6 +157,24 @@ nav{
     visibility: visible;
 }
 
+.tooltip3{
+    color: #fff;
+    position: absolute;
+    background-color: rgba(1, 253, 109, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100px;
+    width: 18vw;
+    height: auto;
+    right: 1vw;
+    top: 1vw;
+    margin-right: 100px;
+    margin-top: 53px;
+    padding: 5px;
+    border-radius: 10px;
+    visibility: visible;
+}
+
 
 main{
     display: flex;
@@ -727,6 +745,12 @@ hr{
         width: 16%;
         margin-right: 110px;
     }
+
+    .tooltip3{
+        width: 20%;
+        margin-right: 15px;
+    }
+
 }
 
 
@@ -936,6 +960,14 @@ hr{
         position: absolute;
     }
 
+    .tooltip3{
+        left: 1vw;
+        top: 1vw;
+        margin: 0 auto;
+        width: 55%;
+        margin-top: 200px;
+    }
+
 }
 
 @media only screen and (max-width:1100px){
@@ -967,6 +999,10 @@ hr{
         width: 50%;
         font-size: 1.1em;
         position: absolute;
+    }
+
+    .tooltip3{
+        width: 65%;
     }
 
 }
@@ -1102,6 +1138,15 @@ hr{
 
     .resultados img{
         width: 60%;
+    }
+
+    .tooltip3{
+        width: 55%;
+        margin-top: 190px;
+    }
+
+    #titulotema{
+        margin-top: 20px;
     }
 
 }
@@ -1289,6 +1334,15 @@ hr{
         font-size: 1.1em;
         position: absolute;
     }
+
+    #titulotema{
+        margin-top: 30px;
+    }
+
+    .tooltip3{
+        width: 90%;
+        margin-top: 275px;
+    }
 }
 
 
@@ -1455,6 +1509,10 @@ hr{
     .tooltip2{
         width: 90%;
         top: 330px;
+    }
+
+    .tooltip3{
+        display: none;
     }
 }
 
