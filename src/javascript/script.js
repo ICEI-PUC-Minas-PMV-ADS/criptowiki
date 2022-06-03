@@ -22,13 +22,7 @@ function busca(){
  */
 
 
-document.getElementById("caixabusca").addEventListener("keypress",function(e){
-    if (e.key === "Enter"){
-        var btn = document.querySelector("#link")
-        btn.click()
-    }
-    
-})
+
 
 
 function legenda(){
