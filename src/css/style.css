@@ -95,6 +95,7 @@ nav{
 #nav ul li a:hover{
     color: #01fd6d;
     border: 2px solid #fff;
+    transition: 0.2s ease-in-out;
 }
 
 .busca{
@@ -123,6 +124,7 @@ nav{
 
 .botaobusca a:hover{
     color: #fff;
+    transition: 0.2s ease-in-out;
 }
 
 .tooltip{
@@ -353,8 +355,10 @@ main p{
 }
 
 .cont:hover a{
+    color: #fff;
     text-decoration: underline;
     text-underline-offset: 3px;
+    transition: 0.3s ease-in-out;
 }
 
 .cont:hover{
