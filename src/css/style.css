@@ -545,7 +545,6 @@ footer p{
 }
 
 #comentariosch button:hover{
-    color: #fff;
     transform: 1s;
 }
 
@@ -840,11 +839,7 @@ hr{
 }
 
 #material button a:hover{
-    color: #000;
-}
-
-#material button:hover{
-    background-color: #01e462;
+    color: #fff;
 }
 
 #botaomaterial{
