@@ -24,7 +24,7 @@
                     </ul>
                 </div>
                 <div id="busca">
-                    <input id="caixabusca" class="busca" type="text" onmouseenter="legendaTemas()" onmouseleave="legendaTemas2()" placeholder="Pesquise criptos e NFTS...">
+                    <input id="caixabusca" class="busca" type="text" onfocus="legendaTemas()" onblur="legendaTemas2()" placeholder="Pesquise criptos e NFTS...">
                     <button id="botaobusca" class="botaobusca" onclick="busca();document.getElementById('caixabusca').value =''">
                         <a id="link" target="_blank" href="#">Buscar</a>
                     </button>
