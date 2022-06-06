@@ -520,7 +520,7 @@ footer p{
 }
 
 #comentarios{
-    text-align: center;
+    text-align: justify;
 }
 
 #comentarios h3{
@@ -545,9 +545,8 @@ footer p{
 }
 
 #comentariosch button:hover{
-    background-color: #02ee68;
     color: #fff;
-    transform: 0.3s;
+    transform: 1s;
 }
 
 #comentariosch input{
@@ -663,12 +662,11 @@ hr{
 }
 
 .h2perig{
-    text-align: center;
+    text-align: start;
 }
 
-
 #perigos h2{
-    margin: 30px auto;
+    margin: 30px 0;
     /* text-decoration: underline;
     text-underline-offset: 6px; */
     color: #000;
@@ -679,6 +677,7 @@ hr{
     padding: 10px;
     position: relative;
     display: inline-block;
+    box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
 }
 
 #perigos img{
@@ -714,7 +713,7 @@ hr{
 }
 
 #perigos a:visited{
-    color: #01fd6d;
+    color: #000;
     font-weight: 1000;
 }
 
@@ -807,6 +806,7 @@ hr{
     position: relative;
     display: inline-block;
     margin: 30px 0;
+    box-shadow: 4px 5px 4px 1px rgba(0,0,0,0.11);
 }
 
 #material iframe{
@@ -816,6 +816,42 @@ hr{
     border-radius: 10px;
     box-shadow: 0px 5px 15px 11px rgba(0,0,0,0.31);
 }
+
+#materiallink h2{
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+#material button a{
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+#material button{
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px;
+    background-color: #01fd6d;
+    padding: 10px;
+    box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
+}
+
+#material button a:hover{
+    color: #000;
+}
+
+#material button:hover{
+    background-color: #01e462;
+}
+
+#botaomaterial{
+    margin: 50px auto;
+    text-align: center;
+}
+
 
 
 
