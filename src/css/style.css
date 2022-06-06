@@ -545,7 +545,7 @@ footer p{
 }
 
 #comentariosch button:hover{
-    transform: 1s;
+    color: #fff;
 }
 
 #comentariosch input{
@@ -846,7 +846,6 @@ hr{
     margin: 50px auto;
     text-align: center;
 }
-
 
 
 
