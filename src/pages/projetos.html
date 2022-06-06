@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,123 +11,225 @@
     <script src="../javascript/script.js"></script>
     <title>Projetos mais famosos</title>
 </head>
+
 <body id="bodyconteudo">
-    <span id="legenda" class="tooltip">Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no CoinMarketCap</span>
+    <span id="legenda" class="tooltip">Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no
+        CoinMarketCap</span>
     <div id="container">
-    <header class="cabecalho" id="cabecalhoperigos">
-        <nav>
-            <div id="logo"> <a href="../../index.html"><img src="../img/Logo - Completo - Verde de Branco.png" alt="LOGO"></a></div>
-            <div id="nav">
-                <ul>
-                    <li><a href="../../index.html">HOME</a></li>
-                    <li><a href="./conteudos.html">CONTEÚDO</a></li>
-                    <li><a href="../pages/contato.html">CONTATO</a></li>
-                </ul>
+        <header class="cabecalho" id="cabecalhoperigos">
+            <nav>
+                <div id="logo"> <a href="../../index.html"><img src="../img/Logo - Completo - Verde de Branco.png"
+                            alt="LOGO"></a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="../../index.html">HOME</a></li>
+                        <li><a href="./conteudos.html">CONTEÚDO</a></li>
+                        <li><a href="../pages/contato.html">CONTATO</a></li>
+                    </ul>
+                </div>
+                <div id="busca">
+                    <input id="caixabusca" class="busca" type="text" onfocus="legendaTemas()" onblur="legendaTemas2()"
+                        placeholder="Pesquise criptos e NFTS...">
+                    <button id="botaobusca" class="botaobusca"
+                        onclick="busca();document.getElementById('caixabusca').value =''">
+                        <a id="link" target="_blank" href="#">Buscar</a>
+                    </button>
+                </div>
+            </nav>
+            <div id="titulotema">
+                <h1>PROJETOS MAIS FAMOSOS</h1>
             </div>
-            <div id="busca">
-                <input id="caixabusca" class="busca" type="text" onfocus="legendaTemas()" onblur="legendaTemas2()" placeholder="Pesquise criptos e NFTS...">
-                <button id="botaobusca" class="botaobusca" onclick="busca();document.getElementById('caixabusca').value =''">
-                    <a id="link" target="_blank" href="#">Buscar</a>
-                </button>
-            </div>
-        </nav>
-        <div id="titulotema"><h1>PROJETOS MAIS FAMOSOS</h1></div>
-    </header>
-    <main id="conteudo">
-        <section id="perigos">
+        </header>
+        <main id="conteudo">
+            <section id="perigos">
 
-            <img src="../img/Icone - NFT.png" alt="">
-            <div class="h2perig">
-                <h2>Bitcoin</h2>
-            </div>            
-            <p>O <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a> surgiu em 31 de outubro de 2008. O criador (ou criadores) da criptomoeda, que se esconde sob o pseudônimo de Satoshi Nakamoto, enviou um e-mail para uma lista de pessoas interessadas em <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=%C3%A0%20Internet%20possui.-,Criptografia,-%C3%89%20um%20conjunto">criptografia</a>. No corpo da mensagem, ele escreveu que vinha trabalhando “em um novo sistema de dinheiro eletrônico totalmente peer-to-peer, sem terceiros confiáveis”.</p>
-            <p>Ele também inseriu um link com o <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20alguma%20criptomoeda.-,Whitepaper,-Um%20guia%20com">whitepaper</a> da <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=decifrem%20seu%20conte%C3%BAdo.-,Criptomoeda,-%C3%89%20o%20nome">criptomoeda</a>, em inglês. No documento, com nove páginas, Nakamoto descreveu resumidamente os fundamentos do <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>.</p>
-            <p>É uma rede peer-to-peer para evitar o gasto duplo (possibilidade de enviar as mesmas moedas mais de uma vez); sem intermediários, como bancos; permite o anonimato dos participantes; e usa Prova de Trabalho (um tipo de algoritmo) para gerar <a href="file:///C:/Users/e13509/Desktop/Prot%C3%B3tipo%20site%20cripto/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a> (processo que ganhou o nome de mineração) e prevenir o gasto duplo.</p>
-            <p>No <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20alguma%20criptomoeda.-,Whitepaper,-Um%20guia%20com">whitepaper</a>, Nakamoto também estipulou que o <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=hist%C3%B3ria%20do%20Bitcoin.-,BTC,-Abrevia%C3%A7%C3%A3o%20de%20Bitcoin">BTC</a> tem oferta finita. No total, apenas 21 milhões de unidades podem ser <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20avatares%20digitais.-,Minera%C3%A7%C3%A3o,-%C3%89%20o%20processo">mineradas</a> (criadas) até 2140, o que o torna escasso. Segundo o agregador Coingecko, 19 milhões de <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a> já foram emitidas junho de 2022.</p>
-            <p>Há diversas formas de comprar <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>. <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=e%20v%C3%A1rios%20tokens.-,Exchange,-Local%20utilizado%20para">Exchanges</a>, ETFs de criptomoedas e fundos de investimentos do setor são algumas das opções.</p>
-            <p>No caso da <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=e%20v%C3%A1rios%20tokens.-,Exchange,-Local%20utilizado%20para">exchange</a>, o usuário precisa escolher alguma e abrir uma conta. Em geral, elas pedem data de nascimento, RG, CPF, CNPJ (no caso de empresa) e endereço no cadastro – feito online. Algumas também solicitam foto (selfie) para confirmar a identidade. Há taxas de saques e transferências. O investimento mínimo de compra de <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a> depende de cada corretora. Em algumas delas o valor mínimo começa em R$ 25; outras exigem R$ 50.</p>
-            <p>Os ETFs de criptomoedas podem ser negociados direto na Bolsa de Valores como uma ação. Portanto, é preciso abrir uma conta em alguma das 100 corretoras de valores existentes no Brasil. O cadastro também envolve o envio de documentos pessoais.</p>
-            <p>Importante lembrar que o investidor, na hora da compra, precisa pagar taxas de corretagem e de custódia para as corretoras, além dos encargos da B3. Também </p>
-            <p>há taxa de administração. As cotas iniciais dos fundos de índice (outro nome para ETF) variavam entre R$ 14 a R$ 72 no começo de outubro.</p>
+                <img src="../img/Icone - NFT.png" alt="">
+                <div class="h2perig">
+                    <h2>Bitcoin</h2>
+                </div>
+                <p>O <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>
+                    surgiu em 31 de outubro de 2008. O criador (ou criadores) da criptomoeda, que se esconde sob o
+                    pseudônimo de Satoshi Nakamoto, enviou um e-mail para uma lista de pessoas interessadas em <a
+                        target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=%C3%A0%20Internet%20possui.-,Criptografia,-%C3%89%20um%20conjunto">criptografia</a>.
+                    No corpo da mensagem, ele escreveu que vinha trabalhando “em um novo sistema de dinheiro eletrônico
+                    totalmente peer-to-peer, sem terceiros confiáveis”.</p>
+                <p>Ele também inseriu um link com o <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20alguma%20criptomoeda.-,Whitepaper,-Um%20guia%20com">whitepaper</a>
+                    da <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=decifrem%20seu%20conte%C3%BAdo.-,Criptomoeda,-%C3%89%20o%20nome">criptomoeda</a>,
+                    em inglês. No documento, com nove páginas, Nakamoto descreveu resumidamente os fundamentos do <a
+                        target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>.
+                </p>
+                <p>É uma rede peer-to-peer para evitar o gasto duplo (possibilidade de enviar as mesmas moedas mais de
+                    uma vez); sem intermediários, como bancos; permite o anonimato dos participantes; e usa Prova de
+                    Trabalho (um tipo de algoritmo) para gerar <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>
+                    (processo que ganhou o nome de mineração) e prevenir o gasto duplo.</p>
+                <p>No <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20alguma%20criptomoeda.-,Whitepaper,-Um%20guia%20com">whitepaper</a>,
+                    Nakamoto também estipulou que o <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=hist%C3%B3ria%20do%20Bitcoin.-,BTC,-Abrevia%C3%A7%C3%A3o%20de%20Bitcoin">BTC</a>
+                    tem oferta finita. No total, apenas 21 milhões de unidades podem ser <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20avatares%20digitais.-,Minera%C3%A7%C3%A3o,-%C3%89%20o%20processo">mineradas</a>
+                    (criadas) até 2140, o que o torna escasso. Segundo o agregador Coingecko, 19 milhões de <a
+                        target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>
+                    já foram emitidas junho de 2022.</p>
+                <p>Há diversas formas de comprar <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>.
+                    <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=e%20v%C3%A1rios%20tokens.-,Exchange,-Local%20utilizado%20para">Exchanges</a>,
+                    ETFs de criptomoedas e fundos de investimentos do setor são algumas das opções.
+                </p>
+                <p>No caso da <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=e%20v%C3%A1rios%20tokens.-,Exchange,-Local%20utilizado%20para">exchange</a>,
+                    o usuário precisa escolher alguma e abrir uma conta. Em geral, elas pedem data de nascimento, RG,
+                    CPF, CNPJ (no caso de empresa) e endereço no cadastro – feito online. Algumas também solicitam foto
+                    (selfie) para confirmar a identidade. Há taxas de saques e transferências. O investimento mínimo de
+                    compra de <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=por%20um%20ativo.-,Bitcoin,-Bitcoin%2C%20com%20%22B">Bitcoin</a>
+                    depende de cada corretora. Em algumas delas o valor mínimo começa em R$ 25; outras exigem R$ 50.</p>
+                <p>Os ETFs de criptomoedas podem ser negociados direto na Bolsa de Valores como uma ação. Portanto, é
+                    preciso abrir uma conta em alguma das 100 corretoras de valores existentes no Brasil. O cadastro
+                    também envolve o envio de documentos pessoais.</p>
+                <p>Importante lembrar que o investidor, na hora da compra, precisa pagar taxas de corretagem e de
+                    custódia para as corretoras, além dos encargos da B3. Também </p>
+                <p>há taxa de administração. As cotas iniciais dos fundos de índice (outro nome para ETF) variavam entre
+                    R$ 14 a R$ 72 no começo de outubro.</p>
 
-            <div class="h2perig">
-                <h2>Bored Apes (NFT)</h2>
-            </div>
-            <p>O que são NFT’s? NFT (Non-Fungible Token – Tokens Não Fungíveis) é um ativo digital que representa algo que é único, criado a partir da tecnologia da block-chain que serve como identidade digital de um item. Que contém um tipo especial de token criptográfico que garante a exclusividade daquele item.</p>
-            <p>O caso que viralizou em abril de 2022 foi o caso do jogador Neymar Jr. que comprou uma obra de arte NFT da coleção Bored Apes por incríveis R$ 790 mil. Dados recentes dizem que o atleta já investiu mais de R$ 6 milhões em ativos NFT.</p>
+                <div class="h2perig">
+                    <h2>Bored Apes (NFT)</h2>
+                </div>
+                <p>O que são NFT’s? NFT (Non-Fungible Token – Tokens Não Fungíveis) é um ativo digital que representa
+                    algo que é único, criado a partir da tecnologia da block-chain que serve como identidade digital de
+                    um item. Que contém um tipo especial de token criptográfico que garante a exclusividade daquele
+                    item.</p>
+                <p>O caso que viralizou em abril de 2022 foi o caso do jogador Neymar Jr. que comprou uma obra de arte
+                    NFT da coleção Bored Apes por incríveis R$ 790 mil. Dados recentes dizem que o atleta já investiu
+                    mais de R$ 6 milhões em ativos NFT.</p>
 
-            <div class="h2perig">
-                <h2>BombCrypto (NFT game)</h2>
-            </div>
-            <p>O que são <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a> games? São jogos que funcionam através do método <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=em%20jogos%20NFT.-,Play%20to%20earn,-Termo%20traduzido%20como">play to earn</a> (jogue e ganhe), em que os jogadores precisam comprar <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=decifrem%20seu%20conte%C3%BAdo.-,Criptomoeda,-%C3%89%20o%20nome">criptomoedas</a> para investir no jogo e com seus esforços para avançar dentro do jogo são geradas recompensas, essas que podem ser trocadas e vendidas no mercado secundário da <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=monet%C3%A1ria%20do%20Bitcoin.-,Blockchain,-Tamb%C3%A9m%20conhecida%20por">blockchain</a> por dinheiro na sua carteira digital.</p>
-            <p>O BombCrypto foi um dos casos mais famosos de 2021, foi inspirado no antigo jogo BomberMan, para começar a jogar tinha se que ter a quantidade mínima de 10 BCOIN (criptomoeda oficial do jogo), com essa quantidade você comprava um herói (personagem que seria responsável pelas recompensas que você alcançaria dentro do jogo), esse herói poderia ter algumas classes (variando de comum até lendário) e quanto maior a classe, mais recompensava ele entregava.</p>
-            <p>Com a variação da moeda dependendo do momento que se comprou e quando começou a coletar suas recompensas era possível ter lucros exorbitantes de até 4x o valor investido em apenas um mês, entretanto para quem entrou um pouco atrasado no game é possível ainda ter perdido cerca de 90% do valor investido e ainda estar jogando para esperar uma recompensa melhor. Em junho de 2022 a moeda atualmente se encontra valendo US$ 0,069 dólares, em contrapartida no fim de novembro a moeda alcançou os incríveis US$ 8,77.</p>
-            <p>Os <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a> games se mostram muito atrativos para o mercado em geral devido aos lucros exorbitantes já demonstrados, mas por serem extremamente voláteis não são um investimento muito recomendado entre os analistas.</p>
+                <div class="h2perig">
+                    <h2>BombCrypto (NFT game)</h2>
+                </div>
+                <p>O que são <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a>
+                    games? São jogos que funcionam através do método <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=em%20jogos%20NFT.-,Play%20to%20earn,-Termo%20traduzido%20como">play
+                        to earn</a> (jogue e ganhe), em que os jogadores precisam comprar <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=decifrem%20seu%20conte%C3%BAdo.-,Criptomoeda,-%C3%89%20o%20nome">criptomoedas</a>
+                    para investir no jogo e com seus esforços para avançar dentro do jogo são geradas recompensas, essas
+                    que podem ser trocadas e vendidas no mercado secundário da <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=monet%C3%A1ria%20do%20Bitcoin.-,Blockchain,-Tamb%C3%A9m%20conhecida%20por">blockchain</a>
+                    por dinheiro na sua carteira digital.</p>
+                <p>O BombCrypto foi um dos casos mais famosos de 2021, foi inspirado no antigo jogo BomberMan, para
+                    começar a jogar tinha se que ter a quantidade mínima de 10 BCOIN (criptomoeda oficial do jogo), com
+                    essa quantidade você comprava um herói (personagem que seria responsável pelas recompensas que você
+                    alcançaria dentro do jogo), esse herói poderia ter algumas classes (variando de comum até lendário)
+                    e quanto maior a classe, mais recompensava ele entregava.</p>
+                <p>Com a variação da moeda dependendo do momento que se comprou e quando começou a coletar suas
+                    recompensas era possível ter lucros exorbitantes de até 4x o valor investido em apenas um mês,
+                    entretanto para quem entrou um pouco atrasado no game é possível ainda ter perdido cerca de 90% do
+                    valor investido e ainda estar jogando para esperar uma recompensa melhor. Em junho de 2022 a moeda
+                    atualmente se encontra valendo US$ 0,069 dólares, em contrapartida no fim de novembro a moeda
+                    alcançou os incríveis US$ 8,77.</p>
+                <p>Os <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a>
+                    games se mostram muito atrativos para o mercado em geral devido aos lucros exorbitantes já
+                    demonstrados, mas por serem extremamente voláteis não são um investimento muito recomendado entre os
+                    analistas.</p>
 
-            <div class="h2perig">
-                <h2>Metaverso</h2>
-            </div>
-            <p>O <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a> pode ser definido como uma grande conexão entre mundos virtuais, com a tentativa de replicar a realidade, focando na conexão social. Por muitos essa é a novidade mais chamativa e promissora, afinal essa conexão e expansão tem uma gama inimaginável e ampla de aplicação.</p>
-            <p>Atualmente o <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a> utiliza as tecnologias de realidade virtual e realidade aumentada para gerar a imersão do usuário. São acessadas atualmente através de óculos e manoplas que conectados a smartphones e computadores proporcionam a interação. Dentro do Metaverso atualmente já há algumas plataformas que oferecem essa experiência como Decentraland, Axie Infinity, Horizon, Mesh, Sandbox, Fortnite e Roblox. As experiências vão desde jogos imersivos até salas de trabalho virtual e entretenimento ao vivo.</p>
-            <p>Já existem formas de investir no <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a>, já é possível realizar a compra de criptomoedas que são utilizadas nos ambientes virtuais, também os já mencionados fundos e ETF com esses ativos, também é possível comprar <a href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a> dessas plataformas, como por exemplo o Decentraland permite a compra de um terreno dentro do seu ambiente, e com o aumento da procura por espaços virtuais o seu ativo será diretamente valorizado.</p>
+                <div class="h2perig">
+                    <h2>Metaverso</h2>
+                </div>
+                <p>O <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a>
+                    pode ser definido como uma grande conexão entre mundos virtuais, com a tentativa de replicar a
+                    realidade, focando na conexão social. Por muitos essa é a novidade mais chamativa e promissora,
+                    afinal essa conexão e expansão tem uma gama inimaginável e ampla de aplicação.</p>
+                <p>Atualmente o <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a>
+                    utiliza as tecnologias de realidade virtual e realidade aumentada para gerar a imersão do usuário.
+                    São acessadas atualmente através de óculos e manoplas que conectados a smartphones e computadores
+                    proporcionam a interação. Dentro do Metaverso atualmente já há algumas plataformas que oferecem essa
+                    experiência como Decentraland, Axie Infinity, Horizon, Mesh, Sandbox, Fortnite e Roblox. As
+                    experiências vão desde jogos imersivos até salas de trabalho virtual e entretenimento ao vivo.</p>
+                <p>Já existem formas de investir no <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=pelo%20seu%20pre%C3%A7o.-,Metaverso,-%C3%89%20uma%20esp%C3%A9cie">Metaverso</a>,
+                    já é possível realizar a compra de criptomoedas que são utilizadas nos ambientes virtuais, também os
+                    já mencionados fundos e ETF com esses ativos, também é possível comprar <a target="_blank"
+                        href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFT</a>
+                    dessas plataformas, como por exemplo o Decentraland permite a compra de um terreno dentro do seu
+                    ambiente, e com o aumento da procura por espaços virtuais o seu ativo será diretamente valorizado.
+                </p>
 
 
 
-        </section>
-        <div id="comentarios">
-            <h3>Comentários</h3>
-            <section id="comentariosch">
-                <input type="text" id="inputcomentario" placeholder="Deixe um comentário...">
-                <button id="botaocomentar" onclick="comentar()">Enviar</button>
             </section>
-            <section id="comentariospost">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique commodi aut, expedita dolorum dolores sit quia esse adipisci ullam aperiam.</p>
-                <p class="horario">Postado em: 30/05/2022</p>
-                <hr>
-            </section>
-            <section id="comentariospost">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique commodi aut, expedita dolorum dolores sit quia esse adipisci ullam aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus?</p>
-                <p class="horario">Postado em: 30/05/2022</p>
-                <hr>
-            </section>
-        </div>
-    </main>
-
-
-    <div id="espacamento"></div>
-        
-    <footer>
-        <div id="footerhome">
-            <div id="footerhome1">
-                <div><h6>PORTAL INFORMATIVO DE CRIPTOATIVOS</h6></div>
-                <div><p>Alex Berton, Bruno Feza, Erick Reis, Louender Junio e Victor Gloweki</p></div>
+            <div id="comentarios">
+                <h3>Comentários</h3>
+                <section id="comentariosch">
+                    <input type="text" id="inputcomentario" placeholder="Deixe um comentário...">
+                    <button id="botaocomentar" onclick="comentar()">Enviar</button>
+                </section>
+                <section id="comentariospost">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique commodi aut, expedita dolorum
+                        dolores sit quia esse adipisci ullam aperiam.</p>
+                    <p class="horario">Postado em: 30/05/2022</p>
+                    <hr>
+                </section>
+                <section id="comentariospost">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique commodi aut, expedita dolorum
+                        dolores sit quia esse adipisci ullam aperiam. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Labore, repellendus?</p>
+                    <p class="horario">Postado em: 30/05/2022</p>
+                    <hr>
+                </section>
             </div>
-            <div id="ft1">
-                <div id="footerhome2"><img src="../img/Logo - Completo - Verde de Branco.png" alt=""></div>
+        </main>
+
+
+        <div id="espacamento"></div>
+
+        <footer>
+            <div id="footerhome">
+                <div id="footerhome1">
+                    <div>
+                        <h6>PORTAL INFORMATIVO DE CRIPTOATIVOS</h6>
+                    </div>
+                    <div>
+                        <p>Alex Berton, Bruno Feza, Erick Reis, Louender Junio e Victor Gloweki</p>
+                    </div>
+                </div>
+                <div id="ft1">
+                    <div id="footerhome2"><img src="../img/Logo - Completo - Verde de Branco.png" alt=""></div>
+                </div>
             </div>
-        </div> 
-    </footer>
-</div>
-<script>
+        </footer>
+    </div>
+    <script>
 
-    document.getElementById("inputcomentario").addEventListener("keypress",function(e){
-    if (e.key == "Enter"){
-        var botaocomentario = document.querySelector("#botaocomentar")
-        botaocomentario.click()
-    }
-    
-    })
+        document.getElementById("inputcomentario").addEventListener("keypress", function (e) {
+            if (e.key == "Enter") {
+                var botaocomentario = document.querySelector("#botaocomentar")
+                botaocomentario.click()
+            }
 
-    document.getElementById("caixabusca").addEventListener("keypress",function(e){
-    if (e.key === "Enter"){
-        var btn = document.querySelector("#link")
-        btn.click()
-    }
-    
-    })
+        })
 
+        document.getElementById("caixabusca").addEventListener("keypress", function (e) {
+            if (e.key === "Enter") {
+                var btn = document.querySelector("#link")
+                btn.click()
+            }
+
+        })
 
 
-</script>
+
+    </script>
 </body>
+
 </html>
