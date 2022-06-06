@@ -523,6 +523,10 @@ footer p{
     text-align: center;
 }
 
+#comentarios h3{
+    font-size: 2rem;
+}
+
 #comentariosch{
     display: flex;
     align-items: center;
@@ -530,14 +534,20 @@ footer p{
 
 #comentariosch button{
     margin-left: 15px;
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 80px;
     font-size: 20px;
     border: 0;
     border-radius: 8px;
     background-color: #01fd6d;
     font-weight: 1000;
     cursor: pointer;
+}
+
+#comentariosch button:hover{
+    background-color: #02ee68;
+    color: #fff;
+    transform: 0.3s;
 }
 
 #comentariosch input{
@@ -652,9 +662,23 @@ hr{
     background-image: url();
 }
 
+.h2perig{
+    text-align: center;
+}
+
 
 #perigos h2{
-    margin: 30px 0;
+    margin: 30px auto;
+    /* text-decoration: underline;
+    text-underline-offset: 6px; */
+    color: #000;
+    text-decoration: none;
+    background-color: #01fd6d;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
 }
 
 #perigos img{
@@ -667,12 +691,14 @@ hr{
 }
 
 #perigos h1{
-    margin: 0 auto 80px;
+    margin: 40px auto 40px;
     text-align: center;
     color: #01fd6d;
     border-bottom: 3px solid #01fd6d;
-    font-size: 5vw;
-    width: 60%;
+    border-top: 3px solid #01fd6d;
+    padding: 5px;
+    font-size: 5rem;
+    width: 80%;
 }
 
 .perigosubtitulo{
@@ -682,8 +708,9 @@ hr{
 
 #perigos a{
     text-decoration: none;
-    color: #01fd6d;
+    color: #000;
     font-weight: 1000;
+    font-style: italic;
 }
 
 #perigos a:visited{
@@ -692,7 +719,7 @@ hr{
 }
 
 #perigos a:hover{
-    color: #000;
+    text-decoration: underline;
 }
 
 
@@ -700,6 +727,12 @@ hr{
 
 #cabecalhodicionario{
     background-image: url(../img/Background\ -\ Dicionario.png);
+}
+
+#dicionario #imagemtopodicio img{
+    display: block;
+    position: relative;
+    margin: 20px auto;
 }
 
 #dicionario{
@@ -742,6 +775,50 @@ hr{
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
+
+/*               MATERIAL DIDATICO           */
+
+
+#cabecalhomaterial{
+    background-image: url(../img/Background\ -\ Material\ Didático.png);
+}
+
+#material p{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#titulomaterial{
+    text-align: center;
+}
+
+#intromaterial p {
+    text-align: justify;
+}
+
+#material h2{
+    color: #000;
+    text-decoration: none;
+    background-color: #01fd6d;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+#material iframe{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 11px rgba(0,0,0,0.31);
+}
+
+
+
 
 
 @media only screen and (max-width:1750px){
@@ -1075,6 +1152,10 @@ hr{
 
     .tooltip3{
         width: 65%;
+    }
+
+    #material iframe{
+        width: 90%;
     }
 
 }

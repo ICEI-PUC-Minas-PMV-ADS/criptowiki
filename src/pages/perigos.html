@@ -13,25 +13,24 @@
 <body id="bodyconteudo">
     <span id="legenda" class="tooltip">Digite corretamente o nome da criptomoeda ou NFT para fazer uma busca no CoinMarketCap</span>
     <div id="container">
-    <header class="cabecalho" id="cabecalhoperigos">
-        <nav>
-            <div id="logo"> <a href="../../index.html"><img src="../img/Logo - Completo - Verde de Branco.png" alt="LOGO"></a></div>
-            <div id="nav">
-                <ul>
-                    <li><a href="../../index.html">HOME</a></li>
-                    <li><a href="./conteudos.html">CONTEÚDO</a></li>
-                    <li><a href="../pages/contato.html">CONTATO</a></li>
-                </ul>
-            </div>
-            <div id="busca">
-                <input id="caixabusca" class="busca" type="text" onmouseenter="legendaTemas()" onmouseleave="legendaTemas2()" placeholder="Pesquise criptos e NFTS...">
-                <button id="botaobusca" class="botaobusca" onclick="busca();document.getElementById('caixabusca').value =''">
-                    <a id="link" target="_blank" href="#">Buscar</a>
-                </button>
-            </div>
-        </nav>
-        <div id="titulotema"><h1>PERIGOS DO MUNDO CRIPTO</h1></div>
-    </header>
+        <header id="cabecalho">
+            <nav>
+                <div id="logo"> <a href="../../index.html"><img src="../img/Logo - Completo - Verde de Branco.png" alt="LOGO"></a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="../../index.html">HOME</a></li>
+                        <li><a href="./conteudos.html">CONTEÚDO</a></li>
+                        <li><a href="../pages/contato.html">CONTATO</a></li>
+                    </ul>
+                </div>
+                <div id="busca">
+                    <input class="busca" type="text" placeholder="Faça sua busca...">
+                    <button class="botaobusca">
+                        <a href="../pages/pesquisa.html">Buscar</a>
+                    </button>
+            </nav>
+            <div id="titulotema"><h1>Material didático</h1></div>
+        </header>
     <main id="conteudo">
         <section id="perigos">
             <img src="../img/Icone - Perigos.png" alt="">
@@ -41,21 +40,34 @@
             <p>Essas criptomoedas tem potencial de revolucionar um conceito fundamental dos seres humanos: o dinheiro. Mas ainda temos um longo caminho para que isso aconteça, por ser uma tecnologia recém criada, esse assunto assusta muita gente, por ser algo muito abstrato para os leigos e extremamente perigoso para os desavisados, visto que esse mundo ainda não possui regulamentações, o que permite que golpes (os famosos <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=aprendizado%20sobre%20cripto.-,Addy,-Endere%C3%A7o%20de%20uma">scams</a>) aconteçam diariamente de todas as formas possíveis. E este tópico irá te apresentar alguns dos golpes conhecidos e te ajudará a preveni-los.</p>
             <p>Para introduzirmos os perigos do mundo cripto, precisamos entender o que são <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=lo%20na%20blockchain.-,NFT,-Sigla%20para%20%E2%80%9CNon">NFTs</a> (é a partir desse conceito que boa parte dos golpes são aplicados). Os NFTs são <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=de%20mercado%20est%C3%A1vel.-,Token,-Normalmente%20os%20tokens">tokens</a> não fungíveis com um registro virtual que garante autenticidade para um item específico, como um número de série, mostrando que aquele item é único. Essa tecnologia pode ser usada para artistas digitais autenticarem suas obras, impedindo roubos e dando valor real a elas. Esses NFTs geralmente estão atrelados a alguma criptomoeda e é a partir daí que boa parte dos golpes acontecem.</p>
             <h1>Golpes Mais Famosos</h1>
-            <h2 class="perigosubtitulo"><a target="_blank" id="atitulos" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=jogue%20e%20ganhe.-,Phishing,-Caracterizado%20como%20roubo">Phishing</a></h2>
+            <div class="h2perig">
+                <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=jogue%20e%20ganhe.-,Phishing,-Caracterizado%20como%20roubo"><h2>Phishing</h2></a>
+            </div>            
             <p>Vem de fishing, onde você é pescado pelo hacker ao clicar em algum link falso que trazem, geralmente, o mesmo layout do original. Ao efetuar o login nesses sites, sua carteira é roubada automaticamente, pois geralmente é usado um bot para efetuar o roubo, de modo que quando você perceber, suas criptomoedas já foram enviadas à carteira do hacker. 
                 Essa forma de roubo ficou muito famosa com os jogos NFTs, pois para entrar no jogo é necessário o acesso ao seu site. Então muitos hackers criaram anúncios com os sites falsos, fazendo com que ao pesquisar no Google, a aparição em destaque seja o anúncio do site scam, fisgando os desavisados.</p>
-            <h2>Como Evitar</h2>
+            <div class="h2perig">
+                <h2>Como Evitar</h2>
+            </div>
+
             <p>Uma estratégia simples, mas eficaz contra esse tipo de golpe, é o uso de ad-block, assim também como a criação de uma barra de favoritos com os sites reais e de acesso constante, evitando qualquer tipo de contato com sites maliciosos encontrados durante pesquisas no Google. Outra forma de acesso aos sites é através do Coinmarketcap.com que é um acervo com todas as criptomoedas e com seus respectivos sites já destacados e verificados. </p>
             <hr>
-            <h2 class="perigosubtitulo">Catfish e perfis falsos</h2>
+            <div class="h2perig">
+                <h2 class="perigosubtitulo">Catfish e perfis falsos</h2>
+            </div>
             <p>Como a venda de NFTs ocorre virtualmente e todo o marketing é feito em redes sociais, é fácil ser vítima de catfishing (quando uma pessoa cria uma ou várias identidades virtuais falsas para enganar outros usuários). Esses impostores abusam da falta de conhecimento das vítimas, roubando suas carteiras virtuais, assim como todo seu conteúdo.</p>
-            <h2>Como Evitar</h2>
+            <div class="h2perig">
+                <h2>Como Evitar</h2>
+            </div>
             <p>Desconfie de todas as pessoas, nunca compartilhe suas senhas, principalmente a seed phrase da sua carteira e, sobretudo, não acesse nenhum link suspeito. Saiba que por falta de regulamentação existem um número exorbitante de golpes nesse mundo cripto. Fique atento para não ser scamado.</p>
             <hr>
-            <h2 class="perigosubtitulo">Esquemas “pump and dump”</h2>
+            <div class="h2perig">
+                <h2 class="perigosubtitulo">Esquemas “pump and dump”</h2>
+            </div>
             <p>Essa prática acontece quando um grupo de pessoas compra vários NFTs ou criptomoedas e causa um aumento artificial da demanda. Depois disso, os participantes do esquema vendem quando os preços sobem e deixam os outros com ativos que não valem nada.</p>
             <p>Da mesma forma, há os “paper money” (dinheiro em papel), projetos de NFTs que tecnicamente não são um golpe, mas têm <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=ap%C3%B3s%20esse%20per%C3%ADodo.-,Liquidez,-%C3%89%20a%20facilidade">Liquidez</a> limitada por causa de um punhado de compradores agressivos. Diante disso, se você está comprando tokens não fungíveis como um investimento, suas chances são melhores quando o projeto tem mais compradores e, portanto, mais liquidez.</p>
-            <h2>Como Evitar</h2>
+            <div class="h2perig">
+                <h2>Como Evitar</h2>
+            </div>
             <p>Analise o histórico e os registros da carteira do projeto de seu interesse. Nesse momento, a transparência da blockchain é bem útil. Na OpenSea ou em qualquer marketplace de NFT, observe a quantidade de transações e compradores da coleção. Com EtherScan, você consegue ver todas as transações de entrada e saída que acontecem na blockchain da <a target="_blank" href="http://127.0.0.1:5500/src/pages/dicionario.html#:~:text=para%20o%20Bitcoin).-,Ethereum,-Ethereum%20%C3%A9%20uma">Ethereum</a>.</p>
             <p>Além disso, siga o projeto no Twitter e entre no canal dele no Discord. Para um projeto ter boa liquidez e/ou comunidade duradoura ou valor artístico, deve existir uma boa quantidade de investidores e colecionadores engajados, além de uma comunidade ativa onde as pessoas conversam e compartilham informações.</p>
             <hr>
