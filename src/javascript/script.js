@@ -65,6 +65,8 @@ function comentar(){
     <hr>`
     document.getElementById('comentariospost').prepend(p)
     document.getElementById('inputcomentario').value=''
+    }else{
+        alert('Comentário inválido')
     }
     
 }
