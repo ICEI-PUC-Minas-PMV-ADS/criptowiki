@@ -813,7 +813,12 @@ hr{
     margin: 20px auto;
     width: 50%;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px 11px rgba(0,0,0,0.31);
+    box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
+}
+
+#material iframe:hover{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease;
 }
 
 #materiallink h2{
@@ -838,9 +843,14 @@ hr{
     box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
 }
 
-#material button a:hover{
-    color: #fff;
+#material button:hover{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease-in;
 }
+
+/* #material button a:hover{
+    color: #fff;
+} */
 
 #botaomaterial{
     margin: 50px auto;
@@ -848,6 +858,13 @@ hr{
 }
 
 
+
+#seta{
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0px 10px;
+    width: 100%;
+}
 
 
 
