@@ -546,6 +546,8 @@ footer p{
 
 #comentariosch button:hover{
     color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease;;
 }
 
 #comentariosch input{
@@ -562,6 +564,11 @@ footer p{
 
 #comentariospost p{
     font-size: 22px;
+}
+
+#todoscomentarios{
+    overflow-y: auto;
+    height: 400px;
 }
 
 /* PÁGINA PESQUISA */
@@ -652,6 +659,50 @@ hr{
 }
 
 
+#voltar button{
+    font-size: 30px;
+    font-weight: 1000;
+    background-color: #01fd6d;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
+}
+
+#voltar button:hover{
+    color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease;
+}
+
+#voltar{
+    text-align: start;
+}
+
+#fontes{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#fontes button{
+    font-size: 30px;
+    font-weight: 1000;
+    background-color: #01fd6d;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
+}
+
+#fontes button:hover{
+    color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease;
+}
+
+
 
 /*          PERIGOS DO MUNDO CRIPTO              */
 
@@ -692,8 +743,6 @@ hr{
     margin: 40px auto 40px;
     text-align: center;
     color: #01fd6d;
-    border-bottom: 3px solid #01fd6d;
-    border-top: 3px solid #01fd6d;
     padding: 5px;
     font-size: 5rem;
     width: 80%;
@@ -705,9 +754,10 @@ hr{
 }
 
 #perigos a{
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
     color: #000;
-    font-weight: 1000;
     font-style: italic;
 }
 
@@ -717,7 +767,7 @@ hr{
 }
 
 #perigos a:hover{
-    text-decoration: underline;
+    color: #0000EE;
 }
 
 
@@ -1542,6 +1592,19 @@ hr{
     .tooltip3{
         width: 90%;
         margin-top: 275px;
+    }
+
+    #fontes button{
+        width: 50%;
+    }
+    
+    #voltar{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #voltar button{
+        width: 50%;
     }
 }
 
