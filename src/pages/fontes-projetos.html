@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Logo Verde.png">
+    <title>Fontes Projetos mais Famosos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        #fundo {
+            filter: blur(40px);
+            border: 1px solid red;
+            transform: scale(1.1);
+            width: 50%;
+            height: 90%;
+            display: block;
+            position: fixed;
+            right: 25vw;
+        }
+
+        #voltar {
+            font-size: 1rem;
+            font-weight: 1000;
+            background-color: #01fd6d;
+            border: 0;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            box-shadow: 4px 5px 4px 4px rgba(0, 0, 0, 0.11);
+            position: absolute;
+            left: 2rem;
+            top: 5rem;
+        }
+        #voltar a{
+            color: #000;
+            text-decoration: none;
+        }
+
+        #voltar a:visited{
+            color: #000;
+        }
+
+        #voltar a:hover {
+            color: #fff;
+            transition: 0.3s ease;
+        }
+
+        #icone {
+            width: 100px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        #container {
+            width: 60%;
+            margin: 0 auto;
+            position: absolute;
+            top: 15vh;
+            left: 0;
+            right: 0;
+        }
+
+        #container p {
+            font-size: 1.1rem;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            font-size: 0.7rem;
+            width: 70%;
+            margin: 10px auto;
+            text-align: center;
+            background-color: rgba(39, 39, 39, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .link a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            font-size: 0.75rem;
+            transition: 0.2s ease;  
+        }
+
+        @media only screen and (max-width:1300px) {
+            #fundo {
+                width: 50%;
+                height: 60%;
+                top: 15vh;
+            }
+        }
+
+        @media only screen and (max-width:1000px) {
+            #fundo {
+                width: 50%;
+                height: 50%;
+                top: 20vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <img id="fundo" src="../img/Logo Verde.png" alt="">
+        <button id="voltar">
+            <a href="../pages/projetos.html#fontes"><-- Voltar</a></button>
+                <div id="container">
+                    <img id="icone" src="../img/Logo Verde.png" alt="">
+                    <p>Links complementares - Projetos mais famosos</p>
+
+                    <div class="link">
+                        <h1><a target="_blank"
+                                href="https://einvestidor.estadao.com.br/comportamento/como-funcionam-jogos-nft">Como
+                                funcionam
+                                jogos NFT</a></h1>
+                    </div>
+
+                    <div class="link">
+                        <h1><a target="_blank"
+                                href="https://www.infomoney.com.br/guias/o-que-e-bitcoin/#:~:text=e%20da%20procura.-,Quando%20surgiu%20o%20Bitcoin,de%20pessoas%20interessadas%20em%20criptografia">Guia
+                                sobre Bitcoin</a></h1>
+                    </div>
+
+                    <div class="link">
+                        <h1><a target="_blank" href="https://www.coingecko.com/pt">Preços da criptomoeda por capitalização de
+                                mercado</a></h1>
+                    </div>
+
+                    <div class="link">
+                        <h1><a target="_blank"
+                                href="https://www.seudinheiro.com/2022/patrocinado/empiricus/por-que-neymar-gastou-r-6-milhoes-em-imagens-de-macacos-entenda-o-que-sao-nfts-e-como-voce-pode-lucrar-com-eles-sem-precisar-desembolsar-milhoes-de-reais-lbrdmn061/">Por
+                                que Neymar gastou R$ 6 milhões em ‘imagens’ de macacos?</a></h1>
+                    </div>
+
+                    <div class="link">
+                        <h1><a target="_blank"
+                                href="https://guiadoinvestidor.com.br/bombcrypto-tudo-sobre-o-game-nft-inspirado-no-bomberman/#:~:text=%C3%89%20mais%20um%20game%20que,voc%C3%AA%20n%C3%A3o%20quer%20perder%20dinheiro">BomBCrypto:
+                                tudo sobre o Game NFT inspirado no Bomberman</a></h1>
+                    </div>
+
+                    <div class="link">
+                        <h1><a target="_blank"
+                                href="https://epocanegocios.globo.com/Tudo-sobre/noticia/2022/04/o-que-e-metaverso-entenda-origem-do-termo-e-saiba-como-entrar-nesse-universo-virtual.html">O
+                                que é metaverso?</a></h1>
+                    </div>
+
+                </div>
+    </main>
+
+</body>
+
+</html>

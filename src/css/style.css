@@ -44,7 +44,7 @@
 
 header{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -685,6 +685,10 @@ hr{
     margin-bottom: 20px;
 }
 
+#fontes button a{
+    text-decoration: none;
+}
+
 #fontes button{
     font-size: 30px;
     font-weight: 1000;
@@ -696,8 +700,11 @@ hr{
     box-shadow: 4px 5px 4px 4px rgba(0,0,0,0.11);
 }
 
-#fontes button:hover{
+#fontes button a:hover{
     color: #fff;
+}
+
+#fontes button:hover{
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     transition: 0.5s ease;
 }
