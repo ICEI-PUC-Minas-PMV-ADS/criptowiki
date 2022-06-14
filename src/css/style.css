@@ -872,6 +872,9 @@ hr{
     bottom: 30px;
     width: 2vw;
     max-width: 6vw;
+    background-color: #01fd6d;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 
