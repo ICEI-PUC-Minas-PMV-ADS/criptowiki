@@ -829,23 +829,49 @@ hr{
 .letras{
     display: inline-block;
     max-width: 60px;
-    height: 60px;
+    height: 55px;
     text-align: start;
-    margin-right: 0px;;
+    margin-right: 0px;
+    min-width: 60px;
 }
 
 .letras2{
     max-width: 100px;
+    min-width: 100px;
 }
 
 .letras3{
     max-width: 120px;
+    min-width: 120px;
 }
 
 #dicionario img{
     margin-left: 0;
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+#alfabeto img{
+    display: inline;
+    cursor: pointer;
+}
+
+#alfabeto a{
+    display: inline;
+    margin: 0 auto;
+}
+
+#alfabeto{
+    display: flex;
+    justify-content: space-around;
+}
+
+#subir img{
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    width: 2vw;
+    max-width: 6vw;
 }
 
 
@@ -1431,6 +1457,14 @@ hr{
     #merc-grafico{
         min-width: 80%;
         display: block;
+    }
+
+    #alfabeto{
+        flex-wrap: wrap;
+    }
+
+    #subir img{
+        right: 3vw;
     }
 
 }
