@@ -460,6 +460,23 @@ main p{
     background-image: url(../img/Background\ -\ Home\ Page\ -\ Opcao\ 1\ \(1\).png);
 }
 
+#criptoativo a{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    color: #000;
+    font-style: italic;
+}
+
+#criptoativo a:visited{
+    color: #000;
+    font-weight: 1000;
+}
+
+#criptoativo a:hover{
+    color: #0000EE;
+}
+
 #titulotema{
     color: #01fd6d;
     display: block;
@@ -921,6 +938,11 @@ hr{
     font-weight: 1000;
     margin: 0px 10px;
     width: 100%;
+}
+
+#merc-grafico{
+    min-width: 50%;
+    display: block;
 }
 
 
@@ -1404,6 +1426,11 @@ hr{
 
     #titulotema{
         margin-top: 20px;
+    }
+
+    #merc-grafico{
+        min-width: 80%;
+        display: block;
     }
 
 }
