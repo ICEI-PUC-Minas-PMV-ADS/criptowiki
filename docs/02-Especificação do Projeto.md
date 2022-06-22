@@ -125,8 +125,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ricardo Paiva  | Uma fonte de renda que permita trabalhar de casa. | Ter mais qualidade de vida.    |
+|Ricardo Paiva       | Aprender sobre investimento de alto risco e entender seus perigos | Potencializar os ganhos, independente de perdas.  |
+|Naligya Santos        | Potencial para ganhar mais mensalmente | Poder viajar e fazer o que sempre quis. |
+|Naligya Santos        | Inspirar outras pessoas a mudarem de vida independente da idade  | Mostrar que a tecnologias inovadoras não é apenas para jovens. |
+|Naligya Santos        | Mostrar que seu conhecimento como contadora é de grande valia para o mundo cripto  | Mostrar que o mundo cripto é um mercado financeiro como outro qualquer, mesmo tendo suas peculiaridades.  |
+|Jaqueline Abrão        | Informações de fácil acesso e compreensão sobre investimentos em cripto | Poder começar a investir em criptomoedas  |
+|Higor de Sá        | Conhecer os principais projetos NFT e suas histórias. | Entender como esse mercado funciona para traçar uma estratégia de trade com suas criptomoedas.  |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
