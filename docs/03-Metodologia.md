@@ -54,12 +54,7 @@ A seguir estão descritas as ferramentas usadas para auxílio no projeto e os am
 
 |AMBIENTE | PLATAFORMA  | LINK DE ACESSO |
 |-------|-------------------------|----|
-|Documentos do projeto| O site estar acessível publicamente na internet. | ALTA | 
-|Repositório do código-fonte| O site deve ser responsivo em operações através de dispositivos mobiles.  |  ALTA | 
-|Gerenciamento e organização da equipe| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
-|Projeto da Interface e Wireframes| O site deve funcionar 24h por dia, todos os dias da semana. |  ALTA | 
-
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+|Documentos do projeto| Google Drive | [Link Google Drive](https://drive.google.com/drive/folders/1NcYg35WwmGHfOpKyJ-9AuJ5Mizn_NnXj ) | 
+|Repositório do código-fonte| GitHub  |  [Link GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo/blob/main/README.md) | 
+|Gerenciamento e organização da equipe| Trello  |  [Link Trello](https://trello.com/b/rJMigpNE/cryptogrupo ) | 
+|Projeto da Interface e Wireframes| MarvelApp |  [Link MarvelApp](https://marvelapp.com/prototype/2ea3h886/screen/86283089 ) | 
