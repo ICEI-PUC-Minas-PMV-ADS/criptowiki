@@ -16,7 +16,7 @@ A solução implementada conta com os seguintes módulos:
 
 -	Conteúdos:
 
-  ○	Material criado pelos desenvolvedores – Conteúdo informativos selecionadas e criados pela equipe para agregar material ao site.
+  --	Material criado pelos desenvolvedores – Conteúdo informativos selecionadas e criados pela equipe para agregar material ao site.
 
     ■	Caixa de texto e imagens com o conteúdo – [Código].
 -	Login e Cadastro do Usuário:
