@@ -6,22 +6,22 @@ Através de screenshots do site iremos registrar os testes de caso feitos e demo
 
 ## Avaliação
 
-Registro CT-01 – Acesso ao Contato dos Desenvolvedores:
+### Registro CT-01 – Acesso ao Contato dos Desenvolvedores:
 
 ![Figura 19 - Registro do Caso de Teste 01](./img/Figura%2019%20-%20Registro%20do%20Caso%20de%20Teste%2001.png)
 *Figura 19 - Registro do Caso de Teste 01*
 
-Registro CT-02 – Navegação pela Home Page:
+### Registro CT-02 – Navegação pela Home Page:
 
 ![Figura 20 – Registro do Caso de Teste 02](./img/Figura%2020%20%E2%80%93%20Registro%20do%20Caso%20de%20Teste%2002.png)
 *Figura 20 – Registro do Caso de Teste 02*
 
-Registro CT-03 – Funcionalidade de comentários:
+### Registro CT-03 – Funcionalidade de comentários:
 
 ![Figura 21 – Registro de Caso de Teste 03](./img/Figura%2021%20%E2%80%93%20Registro%20de%20Caso%20de%20Teste%2003.png)
 *Figura 21 – Registro de Caso de Teste 03*
 
-Registro CT-04 – Acesso às referências bibliográficas:
+### Registro CT-04 – Acesso às referências bibliográficas:
 
 ![Figura 22 - Registro de Caso de Teste 04](./img/Figura%2022%20-%20Registro%20de%20Caso%20de%20Teste%2004.PNG)
 *Figura 22 - Registro de Caso de Teste 04*
