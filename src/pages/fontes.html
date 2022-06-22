@@ -62,6 +62,7 @@
             top: 15vh;
             left: 0;
             right: 0;
+            margin-top: -50px;
         }
 
         #container p {
@@ -79,6 +80,8 @@
             background-color: rgba(39, 39, 39, 0.5);
             padding: 10px;
             border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-sizing: border-box;
         }
 
         .link a {
@@ -104,6 +107,16 @@
                 width: 50%;
                 height: 50%;
                 top: 20vh;
+            }
+        }
+
+        @media only screen and (max-width:700px) {
+            #container{
+                margin-top: 20px;
+            }
+            .link{
+                width: 100%;
+                margin-top: 10px;
             }
         }
     </style>
