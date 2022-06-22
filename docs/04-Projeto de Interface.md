@@ -9,8 +9,6 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
 O diagrama a seguir, figura 4, demonstra o fluxo de interação do usuário nas respectivas telas do sistema. Cada tela presente no fluxo está detalhada no tópico Wireframes. Para uma visualização interativa, acesse o [ambiente criado no MarvelApp do projeto.](https://marvelapp.com/prototype/2ea3h886/screen/86283089)
 ![Figura 4 - Diagrama da interface do fluxo do usuário](./img/Figura%204%20-%20Diagrama%20da%20interface%20do%20fluxo%20do%20usu%C3%A1rio.png)
 *Figura 4 - Diagrama da interface do fluxo do usuário*
