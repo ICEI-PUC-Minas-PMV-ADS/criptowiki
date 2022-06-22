@@ -20,7 +20,7 @@ Havendo a continuidade do desenvolvimento é feito o upload de novas versões pa
 
 ## Gerenciamento de Projeto
 
-Escolhemos o método Scrum para executarmos o desenvolvimento do projeto. Através de sprints o processo fica mais efetivo, com entregas dos artefatos produzidos em datas determinadas.
+### Divisão de Papéis
 
 Com base na organização proposta pelo método Scrum, a equipe ficou definida da seguinte maneira: 
 
@@ -38,20 +38,9 @@ Com base na organização proposta pelo método Scrum, a equipe ficou definida d
 
     o	Bruno Feza 
 
-
-
-### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Escolhemos o método Scrum para executarmos o desenvolvimento do projeto. Através de sprints o processo fica mais efetivo, com entregas dos artefatos produzidos em datas determinadas.
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -61,19 +50,14 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+A seguir estão descritas as ferramentas usadas para auxílio no projeto e os ambientes organizados aos quais fazemos parte. 
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+| AMBIENTE | PLATAFORMA | LINK DE ACESSO |
+| Documentos do Projeto | Google Drive | ![Link google drive](https://drive.google.com/drive/folders/1NcYg35WwmGHfOpKyJ-9AuJ5Mizn_NnXj ) |
+| Repositório do código-fonte | GitHub | ![Link repositório do Git](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo/blob/main/README.md) |
+| Gerenciamento e organização da equipe | Trello | ![Link Trello](https://trello.com/b/rJMigpNE/cryptogrupo ) |
+| Projeto da Interface e Wireframes | MarvelApp | ![Link MarvelApp](https://marvelapp.com/prototype/2ea3h886/screen/86283089 ) |
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
