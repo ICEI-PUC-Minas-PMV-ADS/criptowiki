@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Para atingir nosso objetivo da maneira esperada, precisamos utilizar ferramentas e processos que facilitem nossas tarefas. Para isso escolhemos plataformas que auxiliam na manutenção do código fonte e dos artefatos gerados, contribuindo também para a gerência e organização da equipe
 
 ## Controle de Versão
 
@@ -28,14 +28,22 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
+
+Escolhemos o método Scrum para executarmos o desenvolvimento do projeto. Através de sprints o processo fica mais efetivo, com entregas dos artefatos produzidos em datas determinadas.
+
+Com base na organização proposta pelo método Scrum, a equipe ficou definida da seguinte maneira: 
+
+-	Scrum Master: Victor Glowecki 
+-	Product Owner: Eduardo Ferreira Ribeiro 
+-	Equipe de Desenvolvimento 
+- o	Louender Junio 
+- o	Alex Berton 
+- o	Erick Machado Reis 
+-	Equipe de Design 
+- o	Bruno Feza 
+
+
 
 ### Divisão de Papéis
 
