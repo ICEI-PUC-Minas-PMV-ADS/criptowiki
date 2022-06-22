@@ -34,17 +34,90 @@ Hobbies, História 
 -	Apostar 
 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+#### Naligya Santos
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Idade: 37 
+
+Ocupação:  Contadora, experienciou vários clientes com investimentos em cripto moedas que resolveu conhecer o mercado 
+
+Aplicativos:  
+-	Instagram  
+-	XP Investimentos 
+-	Meta Trader 4 
+-	Twitter 
+
+
+Motivações  
+-	Aumentar patrimônio 
+-	Deixar algo bom pros filhos 
+-	Viajar 
+
+
+Frustrações  
+-	Não poder ter o que sempre quis quando criança 
+-	Nunca ter viajado pra fora do país 
+ 
+Hobbies, História  
+-	Jogar vôlei de praia  
+-	Surfar
+
+#### Jaqueline Abrão
+
+Idade: 23 
+
+Ocupação: Assessora de imóveis buscando formas de aumentar seu capital 
+
+Aplicativos:  
+-	Moneytimes 
+-	Investing 
+-	UOL notícias 
+
+
+Motivações  
+-	Alcançar a liberdade financeira, viajar 
+-	Morar em outro país 
+-	Ajudar a mãe financeiramente patrimônio 
+
+
+Frustrações  
+-	Não entrou na faculdade pública 
+-	Pais divorciados 
+-	Não saber investir 
+
+
+Hobbies, História  
+-	Leitura 
+-	É formada em engenharia, estuda inglês desde os 12 anos. Gosta do ramo de vendas, muito comunicativa, mas sem noção financeira 
+
+#### Higor De Sá
+
+Idade: 30 
+
+Ocupação: Atendente de call center 
+
+Aplicativos:  
+-	Instagram  
+-	Facebook 
+-	Youtube 
+-	Netflix 
+
+
+Motivações  
+-	Ter casa própria 
+-	Ter carro próprio  
+
+
+Frustrações  
+-	Divorciado 
+-	Treinamentos de “daytrade” que nunca funcionam 
+
+
+Hobbies, História  
+-	Assistir jornais, filmes e reality shows 
+-	Formado em administração, não conseguiu emprego na Bahia e se mudou para São Paulo, onde fez estágio em uma empresa de RH, até que mudou para call center em que trabalha há 7 anos. Já fez diversos cursos de day trade e sofreu golpes de pirâmides na esperança de ganhar dinheiro. 
+
+
+
 
 ## Histórias de Usuários
 
