@@ -20,7 +20,7 @@ A responsividade do site segue o padrão das Medias queries.
 Tela inicial que apresenta o objetivo do site ao usuário e o guia para o restante do conteúdo do site.
 
 ![Figura 13 - Tela Home Page](./img/Figura%2013%20-%20Tela%20Home%20Page.png)
-<center>Figura 13 - Tela Home Page</center>
+<center><em>Figura 13 - Tela Home Page</em></center>
 
 ### Tela de Conteúdos
 
