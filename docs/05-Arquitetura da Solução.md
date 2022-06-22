@@ -2,18 +2,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesse campo abordaremos a solução da arquitetura proposta pelo grupo, com seus detalhes técnicos e componentes. Trataremos também da hospedagem do código-fonte, mostrando o ambiente usado.  
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Na figura a seguir está sendo ilustrado o nosso diagrama da arquitetura de software, onde utilizamos o modelo C4 que consiste em um conjunto hierárquico contendo o contexto, containers, componentes e código. 
 
-Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Figura 11 - Diagrama da Arquitetura de Software](img/Figura%2011%20-%20Diagrama%20da%20Arquitetura%20de%20Software.png)
+<center>Figura 11 - Diagrama da Arquitetura de Software</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
