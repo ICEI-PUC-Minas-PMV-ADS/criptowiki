@@ -2,13 +2,37 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O problema apresentado neste projeto foi definido com a participação de todos os membros do grupo, através discussões a respeito de experiências vividas ao nos depararmos com os perigos do mundo cripto. Foi de consenso de todos a falta de informações legítimas sobre o assunto. Buscamos, então, solucionar esse problema criando uma plataforma informativa que sirva de instrução para os mais leigos acerca das dificuldades, muitas vezes omitidas, por quem divulga o meio.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+#### Ricardo Paiva
+
+Idade: 25 
+
+Ocupação: Auxiliar Financeiro, saiu recentemente de um emprego com jornadas de trabalho abusivas para poder se dedicar mais a sua vida pessoal 
+
+Aplicativos:  
+-	Instagram  
+-	Facebook 
+-	Twitter
+
+Motivações  
+-	Viajar 
+-	Sair com amigos 
+-	Casar 
+
+Frustrações  
+-	Não poder comprar o que quer 
+-	Pouco tempo livre 
+-	Falta de crescimento profissional 
+
+Hobbies, História  
+-	Ler livros 
+-	Assistir seriados/filmes 
+-	Jogar no computador 
+-	Apostar 
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
