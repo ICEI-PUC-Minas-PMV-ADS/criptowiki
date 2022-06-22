@@ -7,10 +7,45 @@ O layout utilizado para o site corresponde ao modelo de interface previamente el
 ![Figura 12 - Template do Site](./img/Figura%2012%20-%20Template%20do%20Site.png)
 *Figura 12 - Template do Site*
 
-O template criado está disponível no site [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/)pmv-ads-2022-1-e1-proj-web-t11-criptogrupo e sua composição é feita da seguinte forma: 
+O template criado está disponível no site [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo) e sua composição é feita da seguinte forma: 
 •	Tela Home;
 •	Conteúdos;
 •	Material dos conteúdos;
 •	Resultado de busca;
 •	Contato;
 A responsividade do site segue o padrão das Medias queries.
+
+### Tela Home Page
+
+Tela inicial que apresenta o objetivo do site ao usuário e o guia para o restante do conteúdo do site.
+
+![Figura 13 - Tela Home Page](./img/Figura%2013%20-%20Tela%20Home%20Page.png)
+*Figura 13 - Tela Home Page*
+
+### Tela de Conteúdos
+
+Tela com ícones que apresentam e direcionam o usuário aos conteúdos presentes no site.
+
+![Figura 14 - Tela de Conteúdos](./img/Figura%2014%20-%20Tela%20de%20Conte%C3%BAdos.png)
+*Figura 14 - Tela de Conteúdos*
+
+### Tela de Material dos Conteúdos
+
+Página onde consta o material dos respectivos conteúdos apresentados pelos ícones da página anterior.
+
+![Figura 15 - Tela de Material dos Conteúdos](./img/Figura%2015%20-%20Tela%20de%20Material%20dos%20Conte%C3%BAdos.png)
+*Figura 15 - Tela de Material dos Conteúdos*
+
+### Tela de Resultado da Busca
+
+Página onde é exibida o resultado da busca realizada pelo usuário.
+
+![Figura 16 - Tela de Resultado da Busca](./img/Figura%2016%20-%20Tela%20de%20Resultado%20da%20Busca.png)
+*Figura 16 - Tela de Resultado da Busca*
+
+### Tela de Contato
+
+Página onde é apresentado os principais responsáveis pelo site e seu conteúdo.
+
+![Figura 17 - Tela de Contato](./img/Figura%2017%20-%20Tela%20de%20Contato.png)
+*Figura 17 - Tela de Contato*
