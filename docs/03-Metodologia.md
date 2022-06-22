@@ -16,6 +16,7 @@ O fluxograma (figura 1) apresenta a branch “develop” que é utilizada para a
 Havendo a continuidade do desenvolvimento é feito o upload de novas versões para a branch main através da Develop. Havendo um bug ou ajuste necessário, isto é passado para correção emergencial assim subindo o projeto já corrigido para uma nova versão com melhorias e correções de bugs. 
 
 ![Figura 1, Fluxograma da gestão do código fonte](./img/Figura%201%20-%20Fluxograma%20da%20gest%C3%A3o%20do%20c%C3%B3digo%20fonte.png)
+Figura 1 - Fluxograma da Gestão do código fonte
 
 
 ## Gerenciamento de Projeto
