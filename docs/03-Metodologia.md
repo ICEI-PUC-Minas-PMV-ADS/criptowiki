@@ -41,12 +41,7 @@ Com base na organização proposta pelo método Scrum, a equipe ficou definida d
 ### Processo
 
 Escolhemos o método Scrum para executarmos o desenvolvimento do projeto. Através de sprints o processo fica mais efetivo, com entregas dos artefatos produzidos em datas determinadas.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+
 
 ### Ferramentas
 
