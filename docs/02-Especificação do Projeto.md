@@ -135,23 +135,25 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os requisitos que compreendem o projeto, conhecidos como funcionais e não funcionais, são respectivamente, o comportamento do sistema levando em consideração as ações do usuário; e o que se espera do sistema em termos de qualidade, usabilidade, disponibilidade, portabilidade, capacidade, degradação, segurança e manutenção.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar na página home uma breve descrição referente ao objetivo do projeto.  | MÉDIA | 
+|RF-002| O cabeçalho da página home deve conter uma barra de navegação com acesso rápido aos conteúdos do site.    | ALTA |
+|RF-003| Ao selecionar o conteúdo o site deve redirecionar o usuário a sua respectiva página.    | ALTA |
+|RF-004| O site deve oferecer uma funcionalidade de pesquisa para permitir ao usuário uma busca a determinado conteúdo.    | MÉDIA |
+|RF-005| O site deve permitir visualizar as informações de contatos dos managers do site.    | BAIXA |
+|RF-006| O site deve disponibilizar as fontes bibliográficas de seus conteúdos.    | MÉDIA |
+|RF-007| O site deve incorporar um vídeo-player para reproduzir os conteúdos instrutivos produzidos por terceiros.     | MÉDIA |
+|RF-008| O site deve permitir que os usuários comentem sobre os tópicos   | MÉDIA |
+|RF-009| O site deve exibir os comentários registrados juntamente com a notícia exibida.    | MÉDIA |
+|RF-010| Os conteúdos do site devem estar disponibilizados na ordem para o otimizar o aprendizado.   | BAIXA |
+
 
 
 ### Requisitos não Funcionais
