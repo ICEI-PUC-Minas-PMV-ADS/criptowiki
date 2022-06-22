@@ -14,29 +14,29 @@ Na figura a seguir está sendo ilustrado o nosso diagrama da arquitetura de soft
 
 A solução implementada conta com os seguintes módulos:
 
-- ●	Conteúdos:
+-	Conteúdos:
 
   ○	Material criado pelos desenvolvedores – Conteúdo informativos selecionadas e criados pela equipe para agregar material ao site.
 
     ■	Caixa de texto e imagens com o conteúdo – [Código].
-- ●	Login e Cadastro do Usuário:
+-	Login e Cadastro do Usuário:
 
   ○	Integração com a base de dados – Parte a ser desenvolvida em versões futuras do projeto, pois o que está sendo proposto para este eixo é o desenvolvimento front-end. 
 
     ■	[Código].
-- ●	Referências Externas:
+-	Referências Externas:
 
   ○	Mídia escolhida pelos desenvolvedores – Vídeos instrutivos selecionados pela equipe para auxiliar os usuários.
 
     ■	Hiperlinks direcionando para o vídeo – [Código].
 
-- ●	Aba comentários:
+-	Aba comentários:
 
 ○	Campo Destinado para registro de comentários dos usuários - Pode ser feito sem a necessidade de uma criação de login e cadastro de usuário.
 
     ■	Comentários - registro de opiniões dos usuários sobre o conteúdo.
-    
-- ●	Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+
+-	Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 ## Hospedagem
 
