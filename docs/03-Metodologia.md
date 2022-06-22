@@ -53,10 +53,10 @@ Escolhemos o método Scrum para executarmos o desenvolvimento do projeto. Atrav�
 A seguir estão descritas as ferramentas usadas para auxílio no projeto e os ambientes organizados aos quais fazemos parte. 
 
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
-| Documentos do Projeto | Google Drive | ![Link google drive](https://drive.google.com/drive/folders/1NcYg35WwmGHfOpKyJ-9AuJ5Mizn_NnXj ) |
-| Repositório do código-fonte | GitHub | ![Link repositório do Git](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo/blob/main/README.md) |
-| Gerenciamento e organização da equipe | Trello | ![Link Trello](https://trello.com/b/rJMigpNE/cryptogrupo ) |
-| Projeto da Interface e Wireframes | MarvelApp | ![Link MarvelApp](https://marvelapp.com/prototype/2ea3h886/screen/86283089 ) |
+| Documentos do Projeto | Google Drive | [Link google drive](https://drive.google.com/drive/folders/1NcYg35WwmGHfOpKyJ-9AuJ5Mizn_NnXj ) |
+| Repositório do código-fonte | GitHub | [Link repositório do Git](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-criptogrupo/blob/main/README.md) |
+| Gerenciamento e organização da equipe | Trello | [Link Trello](https://trello.com/b/rJMigpNE/cryptogrupo ) |
+| Projeto da Interface e Wireframes | MarvelApp | [Link MarvelApp](https://marvelapp.com/prototype/2ea3h886/screen/86283089 ) |
 
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
