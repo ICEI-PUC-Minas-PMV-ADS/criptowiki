@@ -9,9 +9,9 @@ Para que os testes sejam executados, é necessário seguir os seguintes passos:
 -	Abrir o código no Visual Studio e executar o live server;
 Foram seis testes executados buscando cumprir os seguintes requisitos: pesquisa, comentário, fontes, legibilidade, contato e navegação da página home. Os testes foram feitos a partir dos requisitos funcionais anteriormente listados. 
 
-| CASO DE TESTE | OBJETIVO DO TESTE  | PASSOS | CRITÉRIOS DE EXITOS |
-|-------|-------------------------|------------------|------------------|
-|RNF-01| O site estar acessível publicamente na internet. | ALTA | 
+| CASO DE TESTE | REQUISITOS ASSOCIADOS | OBJETIVO DO TESTE  | PASSOS | CRITÉRIOS DE EXITOS |
+|--------------|----------------|--------------------|------------------|------------------|
+|CT-01 – Acesso ao Contato dos Desenvolvedores| RF-05 - O site deve permitir visualizar as informações de contatos dos desenvolvedores. | Verificar se os contatos dos desenvolvedores estão presentes no site. | Após seguir os passos listados anteriormente, na navbar do site encontra-se o acesso à página de informações dos desenvolvedores, cujo nome é “contato”. | O ícone de nome contato deve redirecionar o usuário à página com as informações dos desenvolvedores. Ali deve conter os nomes dos desenvolvedores, assim como um e-mail para contato dos mesmos.  |
 |RNF-02| O site deve ser responsivo em operações através de dispositivos mobiles.  |  ALTA | 
 |RNF-03| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
 |RNF-04| O site deve funcionar 24h por dia, todos os dias da semana. |  ALTA | 
