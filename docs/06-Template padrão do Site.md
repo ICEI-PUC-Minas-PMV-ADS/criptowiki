@@ -27,7 +27,7 @@ Tela inicial que apresenta o objetivo do site ao usuário e o guia para o restan
 Tela com ícones que apresentam e direcionam o usuário aos conteúdos presentes no site.
 
 ![Figura 14 - Tela de Conteúdos](./img/Figura%2014%20-%20Tela%20de%20Conte%C3%BAdos.png)
-<center>Figura 14 - Tela de Conteúdos</center>
+<center><em>Figura 14 - Tela de Conteúdos</em></center>
 
 ### Tela de Material dos Conteúdos
 
