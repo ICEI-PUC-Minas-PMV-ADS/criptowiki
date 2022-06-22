@@ -54,11 +54,10 @@ A seguir estão descritas as ferramentas usadas para auxílio no projeto e os am
 
 |AMBIENTE | PLATAFORMA  | LINK DE ACESSO |
 |-------|-------------------------|----|
-|RNF-01| O site estar acessível publicamente na internet. | ALTA | 
-|RNF-02| O site deve ser responsivo em operações através de dispositivos mobiles.  |  ALTA | 
-|RNF-03| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
-|RNF-04| O site deve funcionar 24h por dia, todos os dias da semana. |  ALTA | 
-|RNF-05| O site deve ter um layout intuitivo e de fácil leitura. |  MÉDIA | 
+|Documentos do projeto| O site estar acessível publicamente na internet. | ALTA | 
+|Repositório do código-fonte| O site deve ser responsivo em operações através de dispositivos mobiles.  |  ALTA | 
+|Gerenciamento e organização da equipe| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
+|Projeto da Interface e Wireframes| O site deve funcionar 24h por dia, todos os dias da semana. |  ALTA | 
 
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
