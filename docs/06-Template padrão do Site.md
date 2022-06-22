@@ -20,32 +20,32 @@ A responsividade do site segue o padrão das Medias queries.
 Tela inicial que apresenta o objetivo do site ao usuário e o guia para o restante do conteúdo do site.
 
 ![Figura 13 - Tela Home Page](./img/Figura%2013%20-%20Tela%20Home%20Page.png)
-<center><em>Figura 13 - Tela Home Page</em></center>
+<center><em>Figura 13 - Tela Home Page</center>
 
 ### Tela de Conteúdos
 
 Tela com ícones que apresentam e direcionam o usuário aos conteúdos presentes no site.
 
 ![Figura 14 - Tela de Conteúdos](./img/Figura%2014%20-%20Tela%20de%20Conte%C3%BAdos.png)
-<center>Figura 14 - Tela de Conteúdos</center>
+<center><em>Figura 14 - Tela de Conteúdos</em></center>
 
 ### Tela de Material dos Conteúdos
 
 Página onde consta o material dos respectivos conteúdos apresentados pelos ícones da página anterior.
 
 ![Figura 15 - Tela de Material dos Conteúdos](./img/Figura%2015%20-%20Tela%20de%20Material%20dos%20Conte%C3%BAdos.png)
-<center>Figura 15 - Tela de Material dos Conteúdos</center>
+<center><em>Figura 15 - Tela de Material dos Conteúdos</em></center>
 
 ### Tela de Resultado da Busca
 
 Página onde é exibida o resultado da busca realizada pelo usuário.
 
 ![Figura 16 - Tela de Resultado da Busca](./img/Figura%2016%20-%20Tela%20de%20Resultado%20da%20Busca.png)
-<center>Figura 16 - Tela de Resultado da Busca</center>
+<center><em>Figura 16 - Tela de Resultado da Busca</em></center>
 
 ### Tela de Contato
 
 Página onde é apresentado os principais responsáveis pelo site e seu conteúdo.
 
 ![Figura 17 - Tela de Contato](./img/Figura%2017%20-%20Tela%20de%20Contato.png)
-<center>Figura 17 - Tela de Contato</center>
+<center><em>Figura 17 - Tela de Contato</em></center>
