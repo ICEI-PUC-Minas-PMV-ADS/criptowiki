@@ -144,15 +144,15 @@ Os requisitos que compreendem o projeto, conhecidos como funcionais e não funci
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| O site deve apresentar na página home uma breve descrição referente ao objetivo do projeto.  | MÉDIA | 
-|RF-002| O cabeçalho da página home deve conter uma barra de navegação com acesso rápido aos conteúdos do site.    | ALTA |
-|RF-003| Ao selecionar o conteúdo o site deve redirecionar o usuário a sua respectiva página.    | ALTA |
-|RF-004| O site deve oferecer uma funcionalidade de pesquisa para permitir ao usuário uma busca a determinado conteúdo.    | MÉDIA |
-|RF-005| O site deve permitir visualizar as informações de contatos dos managers do site.    | BAIXA |
-|RF-006| O site deve disponibilizar as fontes bibliográficas de seus conteúdos.    | MÉDIA |
-|RF-007| O site deve incorporar um vídeo-player para reproduzir os conteúdos instrutivos produzidos por terceiros.     | MÉDIA |
-|RF-008| O site deve permitir que os usuários comentem sobre os tópicos   | MÉDIA |
-|RF-009| O site deve exibir os comentários registrados juntamente com a notícia exibida.    | MÉDIA |
-|RF-010| Os conteúdos do site devem estar disponibilizados na ordem para o otimizar o aprendizado.   | BAIXA |
+|RF-02| O cabeçalho da página home deve conter uma barra de navegação com acesso rápido aos conteúdos do site.    | ALTA |
+|RF-03| Ao selecionar o conteúdo o site deve redirecionar o usuário a sua respectiva página.    | ALTA |
+|RF-04| O site deve oferecer uma funcionalidade de pesquisa para permitir ao usuário uma busca a determinado conteúdo.    | MÉDIA |
+|RF-05| O site deve permitir visualizar as informações de contatos dos managers do site.    | BAIXA |
+|RF-06| O site deve disponibilizar as fontes bibliográficas de seus conteúdos.    | MÉDIA |
+|RF-07| O site deve incorporar um vídeo-player para reproduzir os conteúdos instrutivos produzidos por terceiros.     | MÉDIA |
+|RF-08| O site deve permitir que os usuários comentem sobre os tópicos   | MÉDIA |
+|RF-09| O site deve exibir os comentários registrados juntamente com a notícia exibida.    | MÉDIA |
+|RF-10| Os conteúdos do site devem estar disponibilizados na ordem para o otimizar o aprendizado.   | BAIXA |
 
 
 
