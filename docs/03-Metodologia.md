@@ -36,11 +36,16 @@ Com base na organização proposta pelo método Scrum, a equipe ficou definida d
 
 -	Scrum Master: Victor Glowecki 
 -	Product Owner: Eduardo Ferreira Ribeiro 
--	Equipe de Desenvolvimento 
+-	Equipe de Desenvolvimento:
+
     o	Louender Junio 
+
     o	Alex Berton 
+
     o	Erick Machado Reis 
+
 -	Equipe de Design 
+
     o	Bruno Feza 
 
 
