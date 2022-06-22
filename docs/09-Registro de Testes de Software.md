@@ -24,7 +24,6 @@ Através de screenshots do site iremos registrar os testes de caso feitos e demo
 ### Registro CT-04 – Acesso às referências bibliográficas:
 
 ![Figura 22 - Registro de Caso de Teste 04](./img/Figura%2022%20-%20Registro%20de%20Caso%20de%20Teste%2004.PNG)
-*Figura 22 - Registro de Caso de Teste 04*
 <center><em>Figura 22 - Registro de Caso de Teste 04</em></center>
 
 
