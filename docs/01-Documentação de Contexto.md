@@ -13,11 +13,11 @@ Diante dos argumentos apresentados, o problema que se busca resolver com este pr
 
 Temos como objetivo a criação de um portal informativo sobre criptoativos, trazendo conhecimentos de fácil acesso às pessoas que buscam informar-se a respeito do tema. 
 Objetivos específicos: 
-- •	Explicar os diversos termos existentes no mundo cripto através de um dicionário específico;
-- •	Contextualizar os projetos mais famosos contando suas histórias e como elas influenciaram o mundo cripto. 
-- •	Disponibilizar e divulgar conteúdos sobre o mercado financeiro e apresenta-lo como conhecimento indispensável para compreender o funcionamento dos criptoativos;
-- •	Disponibilizar e divulgar conteúdos informativos produzidos por pessoas experientes da área;
-- •	Relatar os principais perigos do mundo cripto e como evita-los. 
+- Explicar os diversos termos existentes no mundo cripto através de um dicionário específico;
+- Contextualizar os projetos mais famosos contando suas histórias e como elas influenciaram o mundo cripto. 
+- Disponibilizar e divulgar conteúdos sobre o mercado financeiro e apresenta-lo como conhecimento indispensável para compreender o funcionamento dos criptoativos;
+- Disponibilizar e divulgar conteúdos informativos produzidos por pessoas experientes da área;
+- Relatar os principais perigos do mundo cripto e como evita-los. 
 
 
 ## Público-Alvo
