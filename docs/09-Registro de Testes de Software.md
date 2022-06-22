@@ -25,6 +25,8 @@ Através de screenshots do site iremos registrar os testes de caso feitos e demo
 
 ![Figura 22 - Registro de Caso de Teste 04](./img/Figura%2022%20-%20Registro%20de%20Caso%20de%20Teste%2004.PNG)
 *Figura 22 - Registro de Caso de Teste 04*
+<center><em>Figura 22 - Registro de Caso de Teste 04</em></center>
+
 
 ### Registro CT-05 – Acesso, funcionamento e organização dos conteúdos:
 
@@ -34,4 +36,4 @@ Através de screenshots do site iremos registrar os testes de caso feitos e demo
 ### Registro CT-06 – Funcionalidade de busca: 
 
 ![Figura 23 – Registro de Caso de Teste 06](./img/Figura%2023%20%E2%80%93%20Registro%20de%20Caso%20de%20Teste%2006.PNG)
-*Figura 23 – Registro de Caso de Teste 06*
+<center><em>Figura 23 – Registro de Caso de Teste 06</em></center>
