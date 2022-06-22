@@ -20,14 +20,14 @@ A responsividade do site segue o padrão das Medias queries.
 Tela inicial que apresenta o objetivo do site ao usuário e o guia para o restante do conteúdo do site.
 
 ![Figura 13 - Tela Home Page](./img/Figura%2013%20-%20Tela%20Home%20Page.png)
-<center><em>Figura 13 - Tela Home Page</center>
+<center><em>Figura 13 - Tela Home Page</em></center>
 
 ### Tela de Conteúdos
 
 Tela com ícones que apresentam e direcionam o usuário aos conteúdos presentes no site.
 
 ![Figura 14 - Tela de Conteúdos](./img/Figura%2014%20-%20Tela%20de%20Conte%C3%BAdos.png)
-<center><em>Figura 14 - Tela de Conteúdos</em></center>
+<center>Figura 14 - Tela de Conteúdos</center>
 
 ### Tela de Material dos Conteúdos
 
