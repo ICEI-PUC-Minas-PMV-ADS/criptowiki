@@ -12,7 +12,8 @@ Foram seis testes executados buscando cumprir os seguintes requisitos: pesquisa,
 | CASO DE TESTE | REQUISITOS ASSOCIADOS | OBJETIVO DO TESTE  | PASSOS | CRITÉRIOS DE EXITOS |
 |--------------|----------------|--------------------|------------------|------------------|
 |CT-01 – Acesso ao Contato dos Desenvolvedores| RF-05 - O site deve permitir visualizar as informações de contatos dos desenvolvedores. | Verificar se os contatos dos desenvolvedores estão presentes no site. | Após seguir os passos listados anteriormente, na navbar do site encontra-se o acesso à página de informações dos desenvolvedores, cujo nome é “contato”. | O ícone de nome contato deve redirecionar o usuário à página com as informações dos desenvolvedores. Ali deve conter os nomes dos desenvolvedores, assim como um e-mail para contato dos mesmos.  |
-|CT-02 – Navegação pela Home Page| RF-01 - O site deve apresentar na página home uma breve descrição referente ao objetivo do projeto. - RF-02 – O cabeçalho da página home deve conter uma barra de navegação com acesso rápido aos conteúdos do site.
+|CT-02 – Navegação pela Home Page| RF-01 - O site deve apresentar na página home uma breve descrição referente ao objetivo do projeto. 
+RF-02 – O cabeçalho da página home deve conter uma barra de navegação com acesso rápido aos conteúdos do site.
  ||||
 
  
