@@ -10,11 +10,11 @@ Este projeto tem como objetivo final a criação de um portal informativo a resp
 
 ## Integrantes
 
-* Bruno César Feza Rodrigues
-* Erick Machado Reis
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Alex Berton
+* Bruno Feza
+* Erick Reis
+* Louender Junio
+* Victor Gloweki
 
 ## Orientador
 
@@ -22,7 +22,7 @@ Este projeto tem como objetivo final a criação de um portal informativo a resp
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a atual versão da aplicação [clique aqui](https://icei-puc-minas-pmv-ads.github.io/criptowiki/).
 
 # Documentação
 
