@@ -1886,16 +1886,16 @@ hr{
 }
 
 ::-webkit-scrollbar {
-    width: 1em
+    width: 0.5em
 }
 
 ::-webkit-scrollbar-track {
-    background: hsl(120 75% 50% / 1);
+    background: white
     border-radius: 100vw;
     margin-block: .5em
 }
 
 ::-webkit-scrollbar-thumb {
-    background: hsl(120 100% 0% / 1);
+    background: #01fd6d;(120 75% 50% / 1);
     border-radius: 100vw 
 }
