@@ -1,3 +1,9 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+- [Acesse a nossa apresentação clicando aqui.](https://www.canva.com/design/DAFEoF3mK4k/bS6w27RG_uPC99uRZsGIzQ/view?utm_content=DAFEoF3mK4k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
+
+### Vídeo apresentação do projeto.
+
+![../docs/img/Capa%20V%C3%ADdeo.png](https://www.youtube.com/watch?v=8wfm1GBpVoI)
+
+
