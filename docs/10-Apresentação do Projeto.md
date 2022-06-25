@@ -8,6 +8,6 @@
 
 Criptowiki
 
-## Identidade Visual (Marca, Design)
+## Identidade Visual
 
 ![Logo do site](./img/Logo%20-%20Completo%20-%20Verde%20de%20Branco.png)
