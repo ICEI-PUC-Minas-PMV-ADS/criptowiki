@@ -2,15 +2,15 @@
 
 <span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+- [Acesse a nossa apresentação clicando aqui.](https://www.canva.com/design/DAFEoF3mK4k/bS6w27RG_uPC99uRZsGIzQ/view?utm_content=DAFEoF3mK4k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Criptowiki
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+![Logo do site](./img/Logo%20-%20Completo%20-%20Verde%20de%20Branco.png)
 
 > **Links Úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
