@@ -40,10 +40,6 @@ Para acessar a atual versão da aplicação [clique aqui](https://icei-puc-minas
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
