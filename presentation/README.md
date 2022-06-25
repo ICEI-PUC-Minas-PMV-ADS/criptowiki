@@ -4,6 +4,6 @@
 
 ### Vídeo apresentação do projeto.
 
-![../docs/img/Capa%20V%C3%ADdeo.png](https://www.youtube.com/watch?v=8wfm1GBpVoI)
+[![Assista o vídeo](../docs/img/Capa%20V%C3%ADdeo.png)](https://www.youtube.com/watch?v=8wfm1GBpVoI)
 
 
