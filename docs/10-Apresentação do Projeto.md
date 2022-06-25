@@ -10,4 +10,4 @@ Criptowiki
 
 ## Identidade Visual
 
-![Logo do site(./img/Logo%20-%20Completo%20-%20Verde%20de%20Branco.png)](https://icei-puc-minas-pmv-ads.github.io/criptowiki/)
+[![Logo do site](./img/Logo%20-%20Completo%20-%20Verde%20de%20Branco.png)](https://icei-puc-minas-pmv-ads.github.io/criptowiki/)
