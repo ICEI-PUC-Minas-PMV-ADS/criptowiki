@@ -1,6 +1,6 @@
 # Apresentação da Solução
 
-- [Acesse a nossa apresentação clicando aqui.](https://www.canva.com/design/DAFEoF3mK4k/bS6w27RG_uPC99uRZsGIzQ/view?utm_content=DAFEoF3mK4k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- [Acesse a nossa apresentação clicando aqui.](https://www.canva.com/design/DAFEoF3mK4k/bS6w27RG_uPC99uRZsGIzQ/view?utm_content=DAFEoF3mK4k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#22)
 
 ### Vídeo apresentação do projeto.
 
