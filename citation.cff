@@ -10,7 +10,11 @@ authors:
   - family-names: Junio
     given-names: Louender
   - family-names: Gloweki
-    given-names: Victor   
+    given-names: Victor  
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva
+    given-names: Simone
 keywords:
   - Criptomoedas
   - Dicionário
