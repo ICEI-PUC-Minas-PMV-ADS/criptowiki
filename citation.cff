@@ -1,0 +1,20 @@
+message: Please cite this software using these metadata.
+title: Criptowiki
+authors:
+  - family-names: Dutra Berton
+    given-names: Alex Vinicius  
+  - family-names: Cesar Feza Rodrigues
+    given-names:  Bruno
+  - family-names: Machado Reis
+    given-names: Erick   
+  - family-names: Junio
+    given-names: Louender
+  - family-names: Gloweki
+    given-names: Victor   
+keywords:
+  - Criptomoedas
+  - Dicionário
+  - Wiki
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/criptowiki
+version: 1.0.0
+date-released: 2022-06-30
